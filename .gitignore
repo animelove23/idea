@@ -1,0 +1,35 @@
+# Raw datasets and downloaded model weights
+/data/
+/datasets/
+/download_models/
+/models/
+/checkpoints/
+/pope_coco/
+/MMHal-Bench/images/
+/MMHal-Bench/response_template.json
+/MMHal-Bench/test_data.zip
+/chair.pkl
+
+# Local caches and Python build products
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+/mllm/demo/temp/
+
+# Local environments and credentials
+.venv/
+venv/
+.env
+.env.*
+*.pem
+*.key
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+*.swp
+*~

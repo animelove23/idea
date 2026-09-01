@@ -1,0 +1,101 @@
+{
+  "schema_version": 2,
+  "run_id": "E1-M0-M00-candidate-baseline-v2",
+  "model": "llava-1.5",
+  "method": {
+    "vsv": false,
+    "sla": false
+  },
+  "candidate_manifest": {
+    "path": "/workspace/VISTA/newest_find_out/result/termination_audit/manifests/cohort_m00_candidates_v2.json",
+    "size": 5808,
+    "sha256": "e7d06992a814866857d36682b5ba720591aeca7d7ddcc436b18b35c54f136533",
+    "role": "candidate_manifest"
+  },
+  "data_path": "/workspace/data/coco/val2014",
+  "checkpoint_path": "/workspace/download_models/llava-v1.5-7b",
+  "code": {
+    "git_commit": "efcf499919e066755e7c33778fbfd864c204329c",
+    "git_dirty": true,
+    "git_status": [
+      " M model_loader.py",
+      "?? .aris/",
+      "?? 2502.03628v2.pdf",
+      "?? EXPERIMENT_AUDIT.json",
+      "?? EXPERIMENT_AUDIT.md",
+      "?? MANIFEST.md",
+      "?? VISTA_paper_experiment_framework.md",
+      "?? experiments/",
+      "?? idea-stage/",
+      "?? newest_find_out/",
+      "?? refine-logs/",
+      "?? run_chair_vista_queue.sh"
+    ],
+    "files": [
+      {
+        "path": "/workspace/VISTA/experiments/termination_audit/generate_m00_baseline_v2.py",
+        "size": 10845,
+        "sha256": "e2dd42960a391414b93cced37d39d0ba11520cf0d94eef8c64d937694dfbcabf",
+        "role": "executed_code"
+      },
+      {
+        "path": "/workspace/VISTA/experiments/termination_audit/provenance.py",
+        "size": 3921,
+        "sha256": "471ab6d4d30fe49bc6e5c54bd0f1b4a9d7340cc0030b0e888a314127d82ed3f0",
+        "role": "executed_code"
+      },
+      {
+        "path": "/workspace/VISTA/model_loader.py",
+        "size": 16760,
+        "sha256": "aca41863baf52db30b52111f486cebaf14e735666b274e05ba9507d7c357dd91",
+        "role": "executed_code"
+      },
+      {
+        "path": "/workspace/VISTA/llm_layers.py",
+        "size": 5653,
+        "sha256": "c554af3e71f939159ab45c79f2155e33d3f9072ecee524a663eb78849fdf00f2",
+        "role": "executed_code"
+      },
+      {
+        "path": "/workspace/VISTA/llava/model/language_model/llava_llama.py",
+        "size": 6101,
+        "sha256": "1e77418fe21021d8fb8892d4b4ad005128c24dea785d55a59156f4210d0e9c8f",
+        "role": "executed_code"
+      },
+      {
+        "path": "/workspace/VISTA/llava/model/llava_arch.py",
+        "size": 14492,
+        "sha256": "d4e07affd1ce5523953a22b774955b0f6bc5ee0c8e35e848de697aea6b66039c",
+        "role": "executed_code"
+      }
+    ]
+  },
+  "seed": 1994,
+  "prompt": "Please help me describe the image in detail",
+  "generation": {
+    "do_sample": false,
+    "num_beams": 1,
+    "max_new_tokens": 512,
+    "temperature": 1.0,
+    "early_stopping": false,
+    "length_penalty": 1.0,
+    "min_new_tokens": null,
+    "use_cache": true,
+    "eos_token_id": 2,
+    "pad_token_id": 0
+  },
+  "record_status_taxonomy": {
+    "ok": "nonempty caption with at least 10 words",
+    "short_nonempty": "nonempty caption with fewer than 10 words",
+    "eos_at_step1": "the sole generated token is EOS",
+    "empty_after_decode": "decoded caption is empty",
+    "exception": "per-image execution raised",
+    "missing_record": "target ID has no JSONL row"
+  },
+  "dependencies": {
+    "python": "3.10.14",
+    "torch": "2.4.1+cu121",
+    "transformers": "4.37.0"
+  },
+  "model_dtype": "torch.float16"
+}

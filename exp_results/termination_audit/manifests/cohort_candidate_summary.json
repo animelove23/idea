@@ -1,0 +1,9 @@
+{
+  "prevalence_path": "/workspace/VISTA/exp_results/termination_audit/manifests/cohort_prevalence_100.json",
+  "prevalence_action": "created",
+  "prevalence_count": 100,
+  "candidate_path": "/workspace/VISTA/exp_results/termination_audit/manifests/cohort_m00_candidates.json",
+  "candidate_action": "created",
+  "candidate_count": 160,
+  "mechanism_ready": false
+}

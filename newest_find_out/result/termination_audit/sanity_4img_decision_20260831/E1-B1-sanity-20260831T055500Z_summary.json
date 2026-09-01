@@ -1,0 +1,124 @@
+{
+  "run_id": "E1-B1-sanity-20260831T055500Z",
+  "execution_status": "FAILED",
+  "hard_checks_status": "FAIL",
+  "selected_images": 4,
+  "processed_images": 4,
+  "image_failures": [
+    {
+      "image_id": 220182,
+      "cohort_class": "collapse",
+      "record_status": "exception",
+      "available_prefix_tokens": 10,
+      "prefix_token_ids": [
+        450,
+        1967,
+        5680,
+        263,
+        4796,
+        1591,
+        411,
+        263,
+        9560,
+        24628
+      ],
+      "exception_type": "UnboundLocalError",
+      "exception_message": "local variable 'expected' referenced before assignment",
+      "traceback": "Traceback (most recent call last):\n  File \"/workspace/VISTA/experiments/termination_audit/fixed_prefix_sanity.py\", line 586, in main\n    expected, repeated_cpu[precision][component], eos_id\nUnboundLocalError: local variable 'expected' referenced before assignment\n"
+    },
+    {
+      "image_id": 284279,
+      "cohort_class": "control",
+      "record_status": "exception",
+      "available_prefix_tokens": 10,
+      "prefix_token_ids": [
+        450,
+        1967,
+        5680,
+        263,
+        2319,
+        11199,
+        639,
+        26902,
+        373,
+        263
+      ],
+      "exception_type": "UnboundLocalError",
+      "exception_message": "local variable 'expected' referenced before assignment",
+      "traceback": "Traceback (most recent call last):\n  File \"/workspace/VISTA/experiments/termination_audit/fixed_prefix_sanity.py\", line 586, in main\n    expected, repeated_cpu[precision][component], eos_id\nUnboundLocalError: local variable 'expected' referenced before assignment\n"
+    },
+    {
+      "image_id": 449485,
+      "cohort_class": "collapse",
+      "record_status": "exception",
+      "available_prefix_tokens": 10,
+      "prefix_token_ids": [
+        450,
+        1967,
+        5680,
+        263,
+        4123,
+        7826,
+        27121,
+        297,
+        263,
+        4628
+      ],
+      "exception_type": "UnboundLocalError",
+      "exception_message": "local variable 'expected' referenced before assignment",
+      "traceback": "Traceback (most recent call last):\n  File \"/workspace/VISTA/experiments/termination_audit/fixed_prefix_sanity.py\", line 586, in main\n    expected, repeated_cpu[precision][component], eos_id\nUnboundLocalError: local variable 'expected' referenced before assignment\n"
+    },
+    {
+      "image_id": 160480,
+      "cohort_class": "control",
+      "record_status": "exception",
+      "available_prefix_tokens": 10,
+      "prefix_token_ids": [
+        450,
+        1967,
+        5680,
+        263,
+        6114,
+        16246,
+        373,
+        263,
+        2919,
+        29892
+      ],
+      "exception_type": "UnboundLocalError",
+      "exception_message": "local variable 'expected' referenced before assignment",
+      "traceback": "Traceback (most recent call last):\n  File \"/workspace/VISTA/experiments/termination_audit/fixed_prefix_sanity.py\", line 586, in main\n    expected, repeated_cpu[precision][component], eos_id\nUnboundLocalError: local variable 'expected' referenced before assignment\n"
+    }
+  ],
+  "runtime_error": null,
+  "metric_rows": 4,
+  "hard_check_rows": 0,
+  "hard_check_failures": 0,
+  "max_noop_diff": null,
+  "max_batch_repeat_diff": null,
+  "max_cache_diff": null,
+  "interaction_count": 0,
+  "interaction_summary_descriptive_only": {
+    "mean": null,
+    "min": null,
+    "max": null,
+    "contains_nonfinite": false
+  },
+  "failures": [],
+  "config_file": {
+    "path": "/workspace/VISTA/newest_find_out/result/termination_audit/sanity_4img_decision_20260831/E1-B1-sanity-20260831T055500Z_config.json",
+    "size": 3514,
+    "sha256": "6b9672664abf18139011c0187b21655e81b2fd02621eca921a08e2b30c961789"
+  },
+  "metrics_file": {
+    "path": "/workspace/VISTA/newest_find_out/result/termination_audit/sanity_4img_decision_20260831/E1-B1-sanity-20260831T055500Z_metrics.jsonl",
+    "size": 2475,
+    "sha256": "cfaacf8953540da6eb7c43a80e9a3e76d8d5fdf5d20cf2da3b2df8714c2e2cee"
+  },
+  "outputs": {
+    "config": "newest_find_out/result/termination_audit/sanity_4img_decision_20260831/E1-B1-sanity-20260831T055500Z_config.json",
+    "metrics": "newest_find_out/result/termination_audit/sanity_4img_decision_20260831/E1-B1-sanity-20260831T055500Z_metrics.jsonl",
+    "summary": "newest_find_out/result/termination_audit/sanity_4img_decision_20260831/E1-B1-sanity-20260831T055500Z_summary.json"
+  },
+  "interpretation_guard": "This four-image run validates implementation only; it does not establish the mechanism or estimate prevalence."
+}

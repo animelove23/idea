@@ -1,0 +1,276 @@
+{
+  "seed": 1994,
+  "greedy_source": "/workspace/VISTA/exp_results/chair_three_decode/llava-1.5/seed1994_vsv_lambda_0.17_logaug_loglayer_25,30_logalpha_0.3_greedy_max_new_tokens_512.jsonl",
+  "beam_source": "/workspace/VISTA/exp_results/chair_three_decode/llava-1.5/seed1994_vsv_lambda_0.17_logaug_loglayer_25,30_logalpha_0.3_beam5_max_new_tokens_512.jsonl",
+  "greedy_rows": 500,
+  "beam_rows": 407,
+  "cohort": "M",
+  "selection": "first collapse IDs in beam artifact; controls nearest-matched on greedy word count",
+  "pairs": [
+    {
+      "collapse_image_id": 220182,
+      "control_image_id": 181799,
+      "collapse_greedy_words": 14,
+      "control_greedy_words": 14
+    },
+    {
+      "collapse_image_id": 449485,
+      "control_image_id": 68219,
+      "collapse_greedy_words": 34,
+      "control_greedy_words": 34
+    },
+    {
+      "collapse_image_id": 104893,
+      "control_image_id": 252332,
+      "collapse_greedy_words": 480,
+      "control_greedy_words": 481
+    },
+    {
+      "collapse_image_id": 116521,
+      "control_image_id": 235057,
+      "collapse_greedy_words": 364,
+      "control_greedy_words": 365
+    },
+    {
+      "collapse_image_id": 553698,
+      "control_image_id": 149364,
+      "collapse_greedy_words": 408,
+      "control_greedy_words": 408
+    },
+    {
+      "collapse_image_id": 153445,
+      "control_image_id": 246512,
+      "collapse_greedy_words": 13,
+      "control_greedy_words": 13
+    },
+    {
+      "collapse_image_id": 150320,
+      "control_image_id": 64103,
+      "collapse_greedy_words": 7,
+      "control_greedy_words": 7
+    },
+    {
+      "collapse_image_id": 142483,
+      "control_image_id": 16025,
+      "collapse_greedy_words": 9,
+      "control_greedy_words": 9
+    },
+    {
+      "collapse_image_id": 414501,
+      "control_image_id": 544456,
+      "collapse_greedy_words": 13,
+      "control_greedy_words": 13
+    },
+    {
+      "collapse_image_id": 457584,
+      "control_image_id": 183391,
+      "collapse_greedy_words": 104,
+      "control_greedy_words": 105
+    },
+    {
+      "collapse_image_id": 145448,
+      "control_image_id": 424793,
+      "collapse_greedy_words": 82,
+      "control_greedy_words": 82
+    },
+    {
+      "collapse_image_id": 504297,
+      "control_image_id": 129803,
+      "collapse_greedy_words": 9,
+      "control_greedy_words": 9
+    },
+    {
+      "collapse_image_id": 165257,
+      "control_image_id": 27805,
+      "collapse_greedy_words": 8,
+      "control_greedy_words": 8
+    },
+    {
+      "collapse_image_id": 565198,
+      "control_image_id": 31745,
+      "collapse_greedy_words": 11,
+      "control_greedy_words": 11
+    },
+    {
+      "collapse_image_id": 507975,
+      "control_image_id": 182050,
+      "collapse_greedy_words": 0,
+      "control_greedy_words": 4
+    },
+    {
+      "collapse_image_id": 232085,
+      "control_image_id": 534210,
+      "collapse_greedy_words": 39,
+      "control_greedy_words": 39
+    },
+    {
+      "collapse_image_id": 171199,
+      "control_image_id": 397903,
+      "collapse_greedy_words": 14,
+      "control_greedy_words": 14
+    },
+    {
+      "collapse_image_id": 5356,
+      "control_image_id": 66821,
+      "collapse_greedy_words": 38,
+      "control_greedy_words": 38
+    },
+    {
+      "collapse_image_id": 14306,
+      "control_image_id": 188318,
+      "collapse_greedy_words": 453,
+      "control_greedy_words": 454
+    },
+    {
+      "collapse_image_id": 461681,
+      "control_image_id": 77473,
+      "collapse_greedy_words": 55,
+      "control_greedy_words": 55
+    },
+    {
+      "collapse_image_id": 471858,
+      "control_image_id": 168713,
+      "collapse_greedy_words": 29,
+      "control_greedy_words": 29
+    },
+    {
+      "collapse_image_id": 523322,
+      "control_image_id": 73199,
+      "collapse_greedy_words": 11,
+      "control_greedy_words": 11
+    },
+    {
+      "collapse_image_id": 502024,
+      "control_image_id": 290741,
+      "collapse_greedy_words": 456,
+      "control_greedy_words": 458
+    },
+    {
+      "collapse_image_id": 43243,
+      "control_image_id": 302823,
+      "collapse_greedy_words": 442,
+      "control_greedy_words": 443
+    },
+    {
+      "collapse_image_id": 221094,
+      "control_image_id": 3938,
+      "collapse_greedy_words": 66,
+      "control_greedy_words": 66
+    },
+    {
+      "collapse_image_id": 388528,
+      "control_image_id": 135681,
+      "collapse_greedy_words": 341,
+      "control_greedy_words": 342
+    },
+    {
+      "collapse_image_id": 350122,
+      "control_image_id": 43133,
+      "collapse_greedy_words": 50,
+      "control_greedy_words": 50
+    },
+    {
+      "collapse_image_id": 512879,
+      "control_image_id": 147835,
+      "collapse_greedy_words": 53,
+      "control_greedy_words": 53
+    },
+    {
+      "collapse_image_id": 248655,
+      "control_image_id": 124416,
+      "collapse_greedy_words": 42,
+      "control_greedy_words": 42
+    },
+    {
+      "collapse_image_id": 253749,
+      "control_image_id": 140332,
+      "collapse_greedy_words": 65,
+      "control_greedy_words": 65
+    },
+    {
+      "collapse_image_id": 5205,
+      "control_image_id": 216516,
+      "collapse_greedy_words": 32,
+      "control_greedy_words": 32
+    },
+    {
+      "collapse_image_id": 106484,
+      "control_image_id": 275393,
+      "collapse_greedy_words": 53,
+      "control_greedy_words": 53
+    }
+  ],
+  "image_ids": [
+    220182,
+    449485,
+    104893,
+    116521,
+    553698,
+    153445,
+    150320,
+    142483,
+    414501,
+    457584,
+    145448,
+    504297,
+    165257,
+    565198,
+    507975,
+    232085,
+    171199,
+    5356,
+    14306,
+    461681,
+    471858,
+    523322,
+    502024,
+    43243,
+    221094,
+    388528,
+    350122,
+    512879,
+    248655,
+    253749,
+    5205,
+    106484,
+    181799,
+    68219,
+    252332,
+    235057,
+    149364,
+    246512,
+    64103,
+    16025,
+    544456,
+    183391,
+    424793,
+    129803,
+    27805,
+    31745,
+    182050,
+    534210,
+    397903,
+    66821,
+    188318,
+    77473,
+    168713,
+    73199,
+    290741,
+    302823,
+    3938,
+    135681,
+    43133,
+    147835,
+    124416,
+    140332,
+    216516,
+    275393
+  ],
+  "diagnostics": {
+    "available_beam_rows": 407,
+    "available_collapse": 127,
+    "available_noncollapse": 280,
+    "mean_abs_match_gap_words": 0.375
+  },
+  "image_ids_sha256": "fe712cf0f15dc825ccaf6f53d5ad192454eb9571b8c26bbb629d8c13e41b41dc"
+}

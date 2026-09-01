@@ -1,0 +1,43 @@
+{
+  "audit_skill": "experiment-audit",
+  "verdict": "WARN",
+  "reason_code": "mixed_reproducibility_drift_and_module_interaction",
+  "summary": "Evidence supports a VSV×SLA interaction under beam search, but exact paper reproduction is not established because the release differs in SLA layer window, prompt punctuation, VSV implementation, stopping defaults, image sampling, checkpoint pinning, and environment.",
+  "trace_path": ".aris/traces/experiment-audit/2026-08-30_run01/",
+  "reviewer_model": "gpt-5.6-sol",
+  "reviewer_reasoning": "ultra",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "generated_at": "2026-08-30T00:00:00Z",
+  "date": "2026-08-30",
+  "auditor": "gpt-5.6-sol-ultra",
+  "overall_verdict": "warn",
+  "integrity_status": "warn",
+  "checks": {
+    "gt_provenance": {"status": "pass", "details": "CHAIR uses MSCOCO annotations; empty-caption diagnostic is derived from generated captions and is explicitly treated as a confound."},
+    "score_normalization": {"status": "pass", "details": "No self-referential normalization found; raw JSONL captions and counts are available."},
+    "result_existence": {"status": "warn", "details": "Replay files exist and match counts; original beam file has 407/500 completed rows."},
+    "dead_code": {"status": "warn", "details": "Post-hoc scorer and several unused trace/position variables are easy to confuse with generation."},
+    "scope": {"status": "warn", "details": "Strong ten-image and 32-image diagnostic ablations, but not a full replicated 500-image beam run."},
+    "eval_type": "real_gt"
+  },
+  "causal_verdict": "primarily_genuine_vsv_sla_interaction_under_beam_search",
+  "causal_confidence": 0.85,
+  "claims": [
+    {"id": "current_combined_vista_beam5_eos_collapse", "impact": "supported_with_scope_qualifier"},
+    {"id": "exact_paper_reproduction", "impact": "unsupported"},
+    {"id": "beam_cache_implementation_bug", "impact": "not_supported"},
+    {"id": "universal_cross_model_interaction", "impact": "unsupported"}
+  ],
+  "key_counts": {
+    "combined_beam_completed": 407,
+    "combined_beam_empty": 127,
+    "combined_greedy_n": 500,
+    "combined_greedy_empty": 2,
+    "ten_image_combined_w6_empty": 8,
+    "ten_image_combined_w5_empty": 8,
+    "ten_image_vsv_only_empty": 0,
+    "ten_image_sla_only_empty": 0,
+    "thirty_two_image_combined_w6_empty": 26
+  }
+}

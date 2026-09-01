@@ -1,0 +1,25 @@
+{
+  "call_number": 2,
+  "purpose": "termination-code-rereview",
+  "timestamp": "2026-08-30T11:16:00Z",
+  "tool": "collaboration.followup_task",
+  "backend": "codex",
+  "model": "gpt-5.6-sol",
+  "effort": "xhigh",
+  "status": "ok",
+  "executor": "codex",
+  "executor_model": "gpt-5",
+  "executor_family": "openai",
+  "reviewer_family": "openai",
+  "family_relation": "same",
+  "independence_verified": false,
+  "files_referenced": [
+    "refine-logs/EXPERIMENT_PLAN.md",
+    "idea-stage/docs/research_contract.md",
+    "experiments/termination_audit/build_cohorts.py",
+    "experiments/termination_audit/generate_m00_baseline.py",
+    "experiments/termination_audit/fixed_prefix_sanity.py",
+    "model_loader.py"
+  ],
+  "prompt": "Second and final independent code review for experiment-bridge. Freshly inspect the current files and verify all prior blockers: inference_mode/OOM safety; release-native SLA arithmetic vs true FP32 projection; per-layer diagnostics; all prefixes 0,1,3,5,10 for no-op/batch/cache; outcome-blind P and M00-decile matching; provenance; no overwrite/partial status; explicit checkpoint; exceptions/cleanup. Identify any new runtime or scientific-integrity blocker. Return READY or NOT_READY first with file:line evidence. Do not edit files."
+}

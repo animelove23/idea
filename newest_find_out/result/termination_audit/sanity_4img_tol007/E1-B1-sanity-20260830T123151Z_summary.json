@@ -1,0 +1,66 @@
+{
+  "run_id": "E1-B1-sanity-20260830T123151Z",
+  "execution_status": "DONE",
+  "hard_checks_status": "FAIL",
+  "selected_images": 4,
+  "processed_images": 4,
+  "image_failures": [],
+  "runtime_error": null,
+  "metric_rows": 964,
+  "hard_check_rows": 720,
+  "hard_check_failures": 2,
+  "max_noop_diff": 0.0,
+  "max_batch_repeat_diff": 0.078125,
+  "max_cache_diff": 0.03125,
+  "interaction_count": 40,
+  "interaction_summary_descriptive_only": {
+    "mean": -0.23952473402023317,
+    "min": -1.4375,
+    "max": 1.112752914428711,
+    "contains_nonfinite": false
+  },
+  "failures": [
+    {
+      "image_id": 284279,
+      "cohort_class": "control",
+      "check": "batch_repeat",
+      "prefix_len": 3,
+      "vsv_mode": "on",
+      "precision_path": "release_native",
+      "component": "augmented",
+      "repeat": 5,
+      "max_abs_diff": 0.078125,
+      "tolerance": 0.07,
+      "passed": false
+    },
+    {
+      "image_id": 284279,
+      "cohort_class": "control",
+      "check": "batch_repeat",
+      "prefix_len": 3,
+      "vsv_mode": "on",
+      "precision_path": "fp32_projection",
+      "component": "augmented",
+      "repeat": 5,
+      "max_abs_diff": 0.07659912109375,
+      "tolerance": 0.07,
+      "passed": false
+    }
+  ],
+  "config_file": {
+    "path": "/workspace/VISTA/newest_find_out/result/termination_audit/sanity_4img_tol007/E1-B1-sanity-20260830T123151Z_config.json",
+    "size": 3489,
+    "sha256": "94412a20a94961acb0184be2ca5355f7c62c9eb80348b4cb4f7a7c17224e60f8"
+  },
+  "metrics_file": {
+    "path": "/workspace/VISTA/newest_find_out/result/termination_audit/sanity_4img_tol007/E1-B1-sanity-20260830T123151Z_metrics.jsonl",
+    "size": 358443,
+    "sha256": "cd1f5a78c9308758f133a1b8e7b0f3f15d765c04eed1d24167f6e9f9caaa3855"
+  },
+  "outputs": {
+    "config": "/workspace/VISTA/newest_find_out/result/termination_audit/sanity_4img_tol007/E1-B1-sanity-20260830T123151Z_config.json",
+    "metrics": "/workspace/VISTA/newest_find_out/result/termination_audit/sanity_4img_tol007/E1-B1-sanity-20260830T123151Z_metrics.jsonl",
+    "summary": "/workspace/VISTA/newest_find_out/result/termination_audit/sanity_4img_tol007/E1-B1-sanity-20260830T123151Z_summary.json"
+  },
+  "interpretation_guard": "This four-image run validates implementation only; it does not establish the mechanism or estimate prevalence."
+}

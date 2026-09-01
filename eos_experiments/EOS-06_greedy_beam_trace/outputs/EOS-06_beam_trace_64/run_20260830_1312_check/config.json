@@ -1,0 +1,30 @@
+{
+  "run_id": "E2-beam-mechanism-trace-64",
+  "prompt": "Please help me describe the image in detail.",
+  "seed": 1994,
+  "images": [
+    {
+      "image_id": 220182,
+      "cohort_class": "collapse"
+    },
+    {
+      "image_id": 284279,
+      "cohort_class": "control"
+    }
+  ],
+  "methods": [
+    "M00_beam5",
+    "M10_beam5",
+    "M01_beam5",
+    "M11_greedy",
+    "M11_beam5"
+  ],
+  "paper_settings": {
+    "vsv_lambda": 0.17,
+    "sla_layers": "25,30",
+    "sla_alpha": 0.3,
+    "max_new_tokens": 512,
+    "do_sample": false,
+    "use_cache": true
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "target_images": 64,
+  "target_records": 256,
+  "completed_records": 256,
+  "exception_records": 0,
+  "execution_status": "DONE"
+}

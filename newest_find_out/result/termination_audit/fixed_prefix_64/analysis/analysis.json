@@ -1,0 +1,123 @@
+{
+  "execution": {
+    "images": 64,
+    "exceptions": 0
+  },
+  "factorial_rows": 2560,
+  "precision_agreement": {
+    "mean_abs_eos_margin_difference": 0.005055317655205727,
+    "max_abs_eos_margin_difference": 0.028385162353515625
+  },
+  "primary_fp32_interactions": [
+    {
+      "cohort_class": "collapse",
+      "prefix_len": 0,
+      "precision_path": "fp32_projection",
+      "effect": "interaction",
+      "n": 32,
+      "mean": 0.29398955404758453,
+      "std": 0.4517247134953117,
+      "ci95_low": 0.1444543194025755,
+      "ci95_high": 0.4506794553250074
+    },
+    {
+      "cohort_class": "collapse",
+      "prefix_len": 1,
+      "precision_path": "fp32_projection",
+      "effect": "interaction",
+      "n": 32,
+      "mean": 0.21279796957969666,
+      "std": 0.6026813212487876,
+      "ci95_low": 0.01728111431002617,
+      "ci95_high": 0.42491445466876027
+    },
+    {
+      "cohort_class": "collapse",
+      "prefix_len": 3,
+      "precision_path": "fp32_projection",
+      "effect": "interaction",
+      "n": 32,
+      "mean": -0.6830050647258759,
+      "std": 0.2737331823721105,
+      "ci95_low": -0.7749207578599453,
+      "ci95_high": -0.5897363215684891
+    },
+    {
+      "cohort_class": "collapse",
+      "prefix_len": 5,
+      "precision_path": "fp32_projection",
+      "effect": "interaction",
+      "n": 32,
+      "mean": -0.6900462508201599,
+      "std": 0.6262150628586182,
+      "ci95_low": -0.907962690293789,
+      "ci95_high": -0.4828515574336052
+    },
+    {
+      "cohort_class": "collapse",
+      "prefix_len": 10,
+      "precision_path": "fp32_projection",
+      "effect": "interaction",
+      "n": 32,
+      "mean": -0.76815265417099,
+      "std": 0.4354512989567563,
+      "ci95_low": -0.9162549927830697,
+      "ci95_high": -0.6187010549008847
+    },
+    {
+      "cohort_class": "control",
+      "prefix_len": 0,
+      "precision_path": "fp32_projection",
+      "effect": "interaction",
+      "n": 32,
+      "mean": 0.15069064497947693,
+      "std": 0.3543453637841688,
+      "ci95_low": 0.029992699623107917,
+      "ci95_high": 0.27300401255488393
+    },
+    {
+      "cohort_class": "control",
+      "prefix_len": 1,
+      "precision_path": "fp32_projection",
+      "effect": "interaction",
+      "n": 32,
+      "mean": 0.16565367579460144,
+      "std": 0.5647441863429474,
+      "ci95_low": -0.02025709077715873,
+      "ci95_high": 0.36168284043669685
+    },
+    {
+      "cohort_class": "control",
+      "prefix_len": 3,
+      "precision_path": "fp32_projection",
+      "effect": "interaction",
+      "n": 32,
+      "mean": -0.7439621090888977,
+      "std": 0.2946079119407977,
+      "ci95_low": -0.8452506355941296,
+      "ci95_high": -0.6464693039655686
+    },
+    {
+      "cohort_class": "control",
+      "prefix_len": 5,
+      "precision_path": "fp32_projection",
+      "effect": "interaction",
+      "n": 32,
+      "mean": -0.8543935120105743,
+      "std": 0.6145490898647671,
+      "ci95_low": -1.0718593746423721,
+      "ci95_high": -0.6496583387255669
+    },
+    {
+      "cohort_class": "control",
+      "prefix_len": 10,
+      "precision_path": "fp32_projection",
+      "effect": "interaction",
+      "n": 32,
+      "mean": -0.675595611333847,
+      "std": 0.49375754960047796,
+      "ci95_low": -0.845520093291998,
+      "ci95_high": -0.5131061695516109
+    }
+  ]
+}

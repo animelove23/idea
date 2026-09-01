@@ -1,0 +1,30 @@
+{
+  "run_id": "E1-B2-path-split-fixed-prefix",
+  "selected_images": [
+    {
+      "image_id": 220182,
+      "cohort_class": "collapse"
+    },
+    {
+      "image_id": 284279,
+      "cohort_class": "control"
+    }
+  ],
+  "b1_prefix_source": "/workspace/VISTA/newest_find_out/result/termination_audit/fixed_prefix_64/fixed_prefix_factorial_64.jsonl",
+  "prefix_lengths": [
+    0,
+    1,
+    3,
+    5,
+    10
+  ],
+  "vsv_lambda": 0.17,
+  "sla_alpha": 0.3,
+  "sla_layers": "26,30",
+  "counterfactuals": {
+    "C00": ".7F0+.3A0",
+    "C10": ".7F1+.3A0",
+    "C01": ".7F0+.3A1",
+    "C11": ".7F1+.3A1"
+  }
+}

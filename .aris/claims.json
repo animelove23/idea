@@ -1,0 +1,22 @@
+[
+  {
+    "id": "execution_complete",
+    "value": 64,
+    "source": "newest_find_out/result/termination_audit/fixed_prefix_64/analysis/key_evidence.json"
+  },
+  {
+    "id": "collapse_k0_vsv_effect",
+    "value": 7.853580102324486,
+    "source": "newest_find_out/result/termination_audit/fixed_prefix_64/analysis/key_evidence.json"
+  },
+  {
+    "id": "collapse_k0_interaction",
+    "value": 0.29398955404758453,
+    "source": "newest_find_out/result/termination_audit/fixed_prefix_64/analysis/key_evidence.json"
+  },
+  {
+    "id": "collapse_k3_interaction",
+    "value": -0.6830050647258759,
+    "source": "newest_find_out/result/termination_audit/fixed_prefix_64/analysis/key_evidence.json"
+  }
+]
