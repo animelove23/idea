@@ -1,0 +1,117 @@
+{
+  "pairs": 400,
+  "denominator_scope": "observed_original_supported_facts_not_complete_image_recall",
+  "entity_identity_retention": {
+    "denominator": 2339,
+    "retained": 1391,
+    "removed": 833,
+    "modified": 0,
+    "unresolved": 115,
+    "retention_lower": 0.5946985891406584,
+    "retention_upper": 0.6438648995297136,
+    "loss_lower": 0.35613510047028646,
+    "loss_upper": 0.4053014108593416,
+    "decided_only_retention": 0.6254496402877698,
+    "decided_coverage": 0.9508336896109448
+  },
+  "description_changes_among_retained_entities": {
+    "equivalent": 1287,
+    "generalized": 66,
+    "specialized": 38
+  },
+  "conditional_attribute_retention": {
+    "denominator": 314,
+    "retained": 127,
+    "removed": 154,
+    "modified": 11,
+    "unresolved": 22,
+    "retention_lower": 0.40445859872611467,
+    "retention_upper": 0.4745222929936306,
+    "loss_lower": 0.5254777070063694,
+    "loss_upper": 0.5955414012738853,
+    "decided_only_retention": 0.4349315068493151,
+    "decided_coverage": 0.9299363057324841
+  },
+  "by_slot": {
+    "color": {
+      "denominator": 186,
+      "retained": 108,
+      "removed": 55,
+      "modified": 10,
+      "unresolved": 13,
+      "retention_lower": 0.5806451612903226,
+      "retention_upper": 0.6505376344086021,
+      "loss_lower": 0.34946236559139787,
+      "loss_upper": 0.41935483870967744,
+      "decided_only_retention": 0.6242774566473989,
+      "decided_coverage": 0.9301075268817204
+    },
+    "material": {
+      "denominator": 49,
+      "retained": 11,
+      "removed": 32,
+      "modified": 1,
+      "unresolved": 5,
+      "retention_lower": 0.22448979591836735,
+      "retention_upper": 0.32653061224489793,
+      "loss_lower": 0.673469387755102,
+      "loss_upper": 0.7755102040816326,
+      "decided_only_retention": 0.25,
+      "decided_coverage": 0.8979591836734694
+    },
+    "size": {
+      "denominator": 68,
+      "retained": 8,
+      "removed": 57,
+      "modified": 0,
+      "unresolved": 3,
+      "retention_lower": 0.11764705882352941,
+      "retention_upper": 0.16176470588235295,
+      "loss_lower": 0.8382352941176471,
+      "loss_upper": 0.8823529411764706,
+      "decided_only_retention": 0.12307692307692308,
+      "decided_coverage": 0.9558823529411765
+    },
+    "shape": {
+      "denominator": 5,
+      "retained": 0,
+      "removed": 4,
+      "modified": 0,
+      "unresolved": 1,
+      "retention_lower": 0.0,
+      "retention_upper": 0.2,
+      "loss_lower": 0.8,
+      "loss_upper": 1.0,
+      "decided_only_retention": 0.0,
+      "decided_coverage": 0.8
+    },
+    "state": {
+      "denominator": 6,
+      "retained": 0,
+      "removed": 6,
+      "modified": 0,
+      "unresolved": 0,
+      "retention_lower": 0.0,
+      "retention_upper": 0.0,
+      "loss_lower": 1.0,
+      "loss_upper": 1.0,
+      "decided_only_retention": 0.0,
+      "decided_coverage": 1.0
+    }
+  },
+  "attribute_denominator_exclusions": {
+    "eligible_supported_attribute_on_retained_owner": 314,
+    "parent_identity_unresolved": 20,
+    "parent_removed": 77,
+    "original_parent_not_supported": 9
+  },
+  "m2_issue_counts": {
+    "attribute_state_unsupported": 36,
+    "excluded_invalid": 15,
+    "entity_invalid": 4,
+    "attribute_invalid": 41
+  },
+  "macro_pair_retention_lower": 0.4234848484848485,
+  "not_independent_human_gold": true,
+  "missing_extraction_not_recoverable_from_production_denominator": true
+}

@@ -1,0 +1,31 @@
+{
+  "pairs": 400,
+  "matrix_classifiable": 322,
+  "matrix_unresolved": 78,
+  "component_classifiable": {
+    "entity_S": 365,
+    "entity_H": 357,
+    "attribute_S": 345,
+    "attribute_H": 360
+  },
+  "quality": {
+    "extraction_issues": 96,
+    "visual_uncertain_facts": 111,
+    "alignment_semantic_facts": 236,
+    "alignment_technical_facts": 188,
+    "attributes_on_false_subject": 18,
+    "parent_attribute_conflict": 6,
+    "retained_label_or_parent_conflicts": 5
+  },
+  "attribute_removal": {
+    "parent_retained_attribute_removed": 142,
+    "parent_removed": 73,
+    "other_or_unresolved": 12
+  },
+  "description_changes": {
+    "generalized": 68,
+    "specialized": 38
+  },
+  "source_labels": "automatic_not_human_gold",
+  "semantic_accuracy_measured": false
+}

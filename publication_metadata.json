@@ -1,8 +1,8 @@
 {
-  "version": "coco400_revision_v2_guard-candidate",
+  "version": "visual_graph_v5-entity_graph_attribute_frozen-candidate",
   "previous_repository_commit": "4b41ff0",
   "publication_date": "2026-09-13",
-  "source_framework_changed": false,
+  "source_framework_changed": true,
   "packaging_changes": [
     "relative image paths",
     "workstation prefix redaction",
@@ -10,20 +10,28 @@
     "28 byte-identical historical fixture images and content hashes",
     "offline test uses temporary dummy credentials",
     "28 byte-identical historical fixture images and content hashes",
-    "offline test uses temporary dummy credentials"
+    "offline test uses temporary dummy credentials",
+    "v5 local-only alignment repair and shared-region entity verification",
+    "conservative fixed type routing",
+    "matrix and component analysis artifacts"
   ],
   "full_raw_checkpoints_included": false,
   "semantic_accuracy_measured": false,
   "validation": {
-    "offline_tests_passed": 28,
+    "previous_release_offline_tests_passed": 28,
+    "v5_publication_offline_tests_passed": 39,
     "matrix_recomputations_passed": [
       "A_scope_only",
       "B_alignment",
       "B2_local_and_rebinding",
-      "C_reviewed"
+      "C_reviewed",
+      "visual_graph_v5_entity_graph_attribute_frozen"
     ],
     "prepared_pairs": 400,
-    "live_model_calls": 0,
+    "live_model_calls_in_publication_step": 0,
+    "documented_v5_live_model_calls": 186,
+    "matrix_classifiable": 322,
+    "matrix_total": 400,
     "secret_scan": "pass"
   }
 }

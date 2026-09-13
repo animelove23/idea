@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "recommended_candidate": "entity_graph_attribute_frozen",
+  "covered": 322,
+  "total": 400,
+  "target": 360,
+  "target_reached": false,
+  "full_joint_covered": 323,
+  "net_gain_over_previous_best": 30,
+  "new_calls": 186,
+  "default_promoted": false,
+  "checks": [
+    {
+      "run": "outputs\\visual_graph_v5\\calls",
+      "checkpoints_verified": 234
+    },
+    {
+      "run": "outputs\\visual_graph_v5\\legacy579\\run",
+      "checkpoints_verified": 135
+    },
+    {
+      "run": "outputs\\visual_graph_v5\\legacy579\\bounded_fallback\\run",
+      "checkpoints_verified": 2
+    }
+  ]
+}

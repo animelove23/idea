@@ -1,0 +1,115 @@
+{
+  "joint_search_binding": {
+    "pairs": 400,
+    "before": 292,
+    "after": 312,
+    "target": 360,
+    "recovered": 23,
+    "regressed": 3,
+    "both_decided_cell_changed": 0,
+    "rate": 0.78,
+    "target_reached": false,
+    "local_claim_failures": 0
+  },
+  "combined_search_binding": {
+    "pairs": 400,
+    "before": 292,
+    "after": 323,
+    "target": 360,
+    "recovered": 34,
+    "regressed": 3,
+    "both_decided_cell_changed": 0,
+    "rate": 0.8075,
+    "target_reached": false,
+    "local_claim_failures": 0
+  },
+  "joint_strict": {
+    "pairs": 400,
+    "before": 292,
+    "after": 311,
+    "target": 360,
+    "recovered": 22,
+    "regressed": 3,
+    "both_decided_cell_changed": 0,
+    "rate": 0.7775,
+    "target_reached": false,
+    "calls": {
+      "requests": 117,
+      "new_calls": 117,
+      "statuses": {
+        "complete": 117
+      }
+    },
+    "visual_transitions": [
+      {
+        "before": "uncertain",
+        "after": "uncertain",
+        "count": 97
+      },
+      {
+        "before": "uncertain",
+        "after": "supported",
+        "count": 27
+      },
+      {
+        "before": "uncertain",
+        "after": "hallucinated",
+        "count": 53
+      },
+      {
+        "before": "supported",
+        "after": "supported",
+        "count": 29
+      },
+      {
+        "before": "hallucinated",
+        "after": "uncertain",
+        "count": 6
+      },
+      {
+        "before": "supported",
+        "after": "uncertain",
+        "count": 11
+      },
+      {
+        "before": "hallucinated",
+        "after": "hallucinated",
+        "count": 4
+      }
+    ],
+    "local_claim_failures": 15,
+    "independent_accuracy_measured": false
+  },
+  "local_alignment_only": {
+    "pairs": 400,
+    "before": 292,
+    "after": 304,
+    "target": 360,
+    "recovered": 12,
+    "regressed": 0,
+    "both_decided_cell_changed": 0,
+    "rate": 0.76,
+    "target_reached": false,
+    "patch_status": {
+      "no_closed_proposal": 320,
+      "validated_patch": 71,
+      "patch_rejected": 9
+    }
+  },
+  "combined": {
+    "pairs": 400,
+    "before": 292,
+    "after": 322,
+    "target": 360,
+    "recovered": 33,
+    "regressed": 3,
+    "both_decided_cell_changed": 0,
+    "rate": 0.805,
+    "target_reached": false,
+    "patch_status": {
+      "no_closed_proposal": 320,
+      "validated_patch": 71,
+      "patch_rejected": 9
+    }
+  }
+}

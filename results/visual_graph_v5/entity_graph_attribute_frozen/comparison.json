@@ -1,0 +1,14 @@
+{
+  "pairs": 400,
+  "before": 292,
+  "after": 322,
+  "target": 360,
+  "recovered": 33,
+  "regressed": 3,
+  "both_decided_cell_changed": 0,
+  "rate": 0.805,
+  "target_reached": false,
+  "route": "fixed input type: entity=joint_graph; attribute=prior_verification",
+  "post_evaluation_selection": true,
+  "independent_accuracy_measured": false
+}

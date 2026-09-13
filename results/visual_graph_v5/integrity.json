@@ -1,0 +1,13 @@
+{
+  "pairs": 400,
+  "facts": 5959,
+  "new_main_calls": 117,
+  "main_response_ids": 117,
+  "checkpoints_verified": 234,
+  "M2_unchanged": true,
+  "known_M3_rows_unchanged": true,
+  "offline_composition_new_calls": 0,
+  "search_binding_repairs": 15,
+  "final_code_sha": "3ce65200533261d1de9717e6ec99f34c3c9f75a0f9696f5fb23f48be65c0e386",
+  "patch_code_sha": "fd74836cf786aa6ff8a058c29f0ed0a7c9cc17ec034812c12cff1a8cfaffd30c"
+}

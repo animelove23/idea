@@ -1,5 +1,11 @@
 # 发布内容与边界
 
+## v5 补充范围
+
+当前仓库已加入 `experiments/visual_graph_v5`、其 v4/v3 依赖、保守 322/400 结果、78 对未决明细和矩阵分析图表。内部完整逐事实账本 `pairs.jsonl` 约 105 MB，超过 GitHub 普通文件上限，且包含可由本地运行恢复的大量中间结构，因此没有入库。发布内容保留逐对 observation、矩阵、迁移、未决案例、分析 CSV、输入 SHA-256 和代码；完整账本仍在实验工作区。
+
+`experiments.visual_graph_v5.analyze_matrix` 的完整重算需要该内部账本。仓库内图表与 CSV 是从哈希为 `367a31c2aed41c31f4fe48e78dafc44e3bbe99306c67764111f8577cb5c68e9a` 的冻结账本生成，发布步骤没有再次调用模型。
+
 包含最新候选框架、依赖的 Final v1／早期分析模块、固定 prompts/few-shot 示例、开发测试、400 对输入文本、阶段观测与汇总、历史报告和研究背景。
 
 `outputs/final_v1_release/` 与 `outputs/final_v1_m5/` 下仅提交运行必需的 profile、路由和示例；它们是历史路径兼容资源，不代表公开包包含完整旧实验。其他运行结果写入被 Git 忽略的 `outputs/`。公开统计放在 `results/`。

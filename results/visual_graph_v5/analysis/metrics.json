@@ -1,0 +1,233 @@
+{
+  "source": "C:\\Users\\ROG\\Desktop\\icassp论文项目\\outputs\\visual_graph_v5\\entity_graph_attribute_frozen\\pairs.jsonl",
+  "source_sha256": "367a31c2aed41c31f4fe48e78dafc44e3bbe99306c67764111f8577cb5c68e9a",
+  "pairs": 400,
+  "matrix_classifiable": 322,
+  "coverage": 0.805,
+  "semantic_accuracy_measured": false,
+  "new_llm_calls": 0,
+  "matrices": {
+    "shorter": {
+      "total": 395,
+      "classified": 318,
+      "unresolved": 77,
+      "cells": [
+        [
+          21,
+          2,
+          4,
+          91
+        ],
+        [
+          18,
+          2,
+          5,
+          81
+        ],
+        [
+          3,
+          1,
+          2,
+          38
+        ],
+        [
+          5,
+          1,
+          1,
+          43
+        ]
+      ]
+    },
+    "unchanged": {
+      "total": 1,
+      "classified": 1,
+      "unresolved": 0,
+      "cells": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "longer": {
+      "total": 4,
+      "classified": 3,
+      "unresolved": 1,
+      "cells": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "components": {
+    "entity_S": {
+      "mixed": 262,
+      "lost": 68,
+      "unresolved": 35,
+      "gained": 22,
+      "unchanged": 13
+    },
+    "attribute_S": {
+      "gained": 57,
+      "mixed": 60,
+      "unchanged": 128,
+      "unresolved": 55,
+      "lost": 100
+    },
+    "entity_H": {
+      "unchanged": 142,
+      "lost": 130,
+      "unresolved": 43,
+      "gained": 41,
+      "mixed": 44
+    },
+    "attribute_H": {
+      "unchanged": 319,
+      "unresolved": 40,
+      "lost": 22,
+      "gained": 19
+    }
+  },
+  "component_event_totals": {
+    "entity_S": {
+      "original_count": 2339,
+      "steer_count": 2053,
+      "retained": 1269,
+      "loss": 925,
+      "gain": 634,
+      "removed": 824,
+      "added": 532,
+      "modified_out": 101,
+      "modified_in": 102,
+      "possible_loss": 175,
+      "possible_gain": 177
+    },
+    "attribute_S": {
+      "original_count": 411,
+      "steer_count": 337,
+      "retained": 127,
+      "loss": 238,
+      "gain": 167,
+      "removed": 227,
+      "added": 155,
+      "modified_out": 11,
+      "modified_in": 12,
+      "possible_loss": 65,
+      "possible_gain": 54
+    },
+    "entity_H": {
+      "original_count": 403,
+      "steer_count": 223,
+      "retained": 74,
+      "loss": 313,
+      "gain": 132,
+      "removed": 310,
+      "added": 128,
+      "modified_out": 3,
+      "modified_in": 4,
+      "possible_loss": 47,
+      "possible_gain": 44
+    },
+    "attribute_H": {
+      "original_count": 29,
+      "steer_count": 29,
+      "retained": 3,
+      "loss": 22,
+      "gain": 22,
+      "removed": 20,
+      "added": 21,
+      "modified_out": 2,
+      "modified_in": 1,
+      "possible_loss": 23,
+      "possible_gain": 16
+    }
+  },
+  "motifs": {
+    "H_unchanged_S_mixed_shorter": {
+      "n": 81,
+      "subtypes": {
+        "both_zero_confirmed": 72,
+        "known_nonzero_unchanged": 8,
+        "zero_known_but_visual_membership_unknown": 1
+      },
+      "description_transition_pair_counts_overlapping": {
+        "generalized": 18,
+        "specialized": 8
+      }
+    },
+    "H_unchanged_shorter_joint_decided": 106,
+    "H_unchanged_shorter_H_axis_decided": 112,
+    "H_lost_without_supported_loss_shorter": 6,
+    "supported_mixed_shorter_joint_decided": 253,
+    "H_gain_present_shorter_joint_decided": 94
+  },
+  "word_counts": {
+    "original": 35191,
+    "steer": 16951,
+    "pooled_reduction": 0.5183143417351027,
+    "mean_pair_reduction": 0.5048027917551324,
+    "median_pair_reduction": 0.508083441981747
+  },
+  "repeat_mention_proxy": {
+    "original": 1785,
+    "steer": 1027
+  },
+  "cohort_word_reduction": {
+    "classified": {
+      "n": 322,
+      "mean": 0.49970668508143523
+    },
+    "unresolved": {
+      "n": 78,
+      "mean": 0.5258405654593694
+    }
+  },
+  "limitations": [
+    "automatic development labels, not independent human gold",
+    "mixed is proposition turnover, including specificity changes; not necessarily different physical objects",
+    "314 conditional attributes are not all image attributes",
+    "no causal control or token-level attribution"
+  ]
+}

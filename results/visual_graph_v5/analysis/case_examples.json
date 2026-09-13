@@ -1,0 +1,1493 @@
+[
+  {
+    "pair_id": "281331",
+    "original": "The image features a dog lying on the floor under a bed, partially covered by a blanket. The dog appears to be resting or sleeping, with its head peeking out from under the blanket. The bed is covered with a striped blanket, adding a cozy and comfortable atmosphere to the scene.",
+    "steer": "The image shows a dog laying on a hardwood floor underneath a bed. The dog is peeking out from underneath the bed, with its head poking out from underneath the bed.",
+    "observation": {
+      "pair_id": "281331",
+      "original_words": 51,
+      "steer_words": 31,
+      "word_change": -20,
+      "word_reduction": 0.39215686274509803,
+      "length_group": "shorter",
+      "pos_original": {
+        "DET": 11,
+        "NOUN": 12,
+        "VERB": 9,
+        "ADP": 9,
+        "ADV": 1,
+        "PART": 1,
+        "AUX": 2,
+        "CCONJ": 2,
+        "PRON": 1,
+        "ADJ": 3
+      },
+      "pos_steer": {
+        "DET": 7,
+        "NOUN": 8,
+        "VERB": 4,
+        "ADP": 9,
+        "ADJ": 1,
+        "AUX": 1,
+        "PRON": 1
+      },
+      "pos_net_reduction": {
+        "ADJ": 2,
+        "ADP": 0,
+        "ADV": 1,
+        "AUX": 1,
+        "CCONJ": 2,
+        "DET": 4,
+        "NOUN": 4,
+        "PART": 1,
+        "PRON": 0,
+        "VERB": 5
+      },
+      "pos_reduction_contribution": {
+        "ADJ": 0.0392156862745098,
+        "ADP": 0.0,
+        "ADV": 0.0196078431372549,
+        "AUX": 0.0196078431372549,
+        "CCONJ": 0.0392156862745098,
+        "DET": 0.0784313725490196,
+        "NOUN": 0.0784313725490196,
+        "PART": 0.0196078431372549,
+        "PRON": 0.0,
+        "VERB": 0.09803921568627451
+      },
+      "supported_change": "mixed",
+      "hallucination_change": "unchanged",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged"
+        ]
+      },
+      "matrix_classifiable": true,
+      "hallucination_unchanged_subtype": "both_zero_confirmed",
+      "components": [
+        {
+          "type": "entity",
+          "role": "S",
+          "original_count": 5,
+          "steer_count": 4,
+          "retained": 4,
+          "loss": 1,
+          "gain": 0,
+          "removed": 1,
+          "added": 0,
+          "modified_out": 0,
+          "modified_in": 0,
+          "possible_loss": 0,
+          "possible_gain": 0
+        },
+        {
+          "type": "entity",
+          "role": "H",
+          "original_count": 0,
+          "steer_count": 0,
+          "retained": 0,
+          "loss": 0,
+          "gain": 0,
+          "removed": 0,
+          "added": 0,
+          "modified_out": 0,
+          "modified_in": 0,
+          "possible_loss": 0,
+          "possible_gain": 0
+        },
+        {
+          "type": "attribute",
+          "role": "S",
+          "original_count": 1,
+          "steer_count": 1,
+          "retained": 0,
+          "loss": 1,
+          "gain": 1,
+          "removed": 1,
+          "added": 1,
+          "modified_out": 0,
+          "modified_in": 0,
+          "possible_loss": 0,
+          "possible_gain": 0
+        },
+        {
+          "type": "attribute",
+          "role": "H",
+          "original_count": 0,
+          "steer_count": 0,
+          "retained": 0,
+          "loss": 0,
+          "gain": 0,
+          "removed": 0,
+          "added": 0,
+          "modified_out": 0,
+          "modified_in": 0,
+          "possible_loss": 0,
+          "possible_gain": 0
+        }
+      ],
+      "attribute_removal_components": {
+        "parent_removed": 1
+      },
+      "quality": {
+        "extraction_issues": 0
+      },
+      "accepted_facts": 11,
+      "independent_visual_accuracy_available": false,
+      "entity_mentions": {
+        "original": 9,
+        "steer": 7
+      },
+      "repeat_mention_proxy": {
+        "original": 4,
+        "steer": 3
+      },
+      "issue_impact_audit": [],
+      "missing_component_types": [],
+      "component_states": {
+        "entity_S": [
+          "lost"
+        ],
+        "entity_H": [
+          "unchanged"
+        ],
+        "attribute_S": [
+          "mixed"
+        ],
+        "attribute_H": [
+          "unchanged"
+        ]
+      },
+      "cardinality_bounds_audit": [
+        {
+          "component": "entity_S",
+          "original_count_lower": 5,
+          "original_count_upper": 5,
+          "steer_count_lower": 4,
+          "steer_count_upper": 4,
+          "minimum_gain_from_counts": 0,
+          "minimum_loss_from_counts": 1,
+          "eligible": true,
+          "disabled_reason": null,
+          "before": [
+            "lost"
+          ],
+          "after": [
+            "lost"
+          ]
+        },
+        {
+          "component": "entity_H",
+          "original_count_lower": 0,
+          "original_count_upper": 0,
+          "steer_count_lower": 0,
+          "steer_count_upper": 0,
+          "minimum_gain_from_counts": 0,
+          "minimum_loss_from_counts": 0,
+          "eligible": true,
+          "disabled_reason": null,
+          "before": [
+            "unchanged"
+          ],
+          "after": [
+            "unchanged"
+          ]
+        },
+        {
+          "component": "attribute_S",
+          "original_count_lower": 1,
+          "original_count_upper": 1,
+          "steer_count_lower": 1,
+          "steer_count_upper": 1,
+          "minimum_gain_from_counts": 0,
+          "minimum_loss_from_counts": 0,
+          "eligible": true,
+          "disabled_reason": null,
+          "before": [
+            "mixed"
+          ],
+          "after": [
+            "mixed"
+          ]
+        },
+        {
+          "component": "attribute_H",
+          "original_count_lower": 0,
+          "original_count_upper": 0,
+          "steer_count_lower": 0,
+          "steer_count_upper": 0,
+          "minimum_gain_from_counts": 0,
+          "minimum_loss_from_counts": 0,
+          "eligible": true,
+          "disabled_reason": null,
+          "before": [
+            "unchanged"
+          ],
+          "after": [
+            "unchanged"
+          ]
+        }
+      ],
+      "matrix_method": "v2_events_intersect_necessary_cardinality_bounds_v4"
+    },
+    "entity_alignment": [
+      {
+        "original": [
+          "e1"
+        ],
+        "steer": [
+          "e1"
+        ],
+        "status": "matched",
+        "description_change": "equivalent",
+        "reason": "same dog on floor under bed"
+      },
+      {
+        "original": [
+          "e2"
+        ],
+        "steer": [
+          "e2"
+        ],
+        "status": "matched",
+        "description_change": "equivalent",
+        "reason": "same floor"
+      },
+      {
+        "original": [
+          "e3"
+        ],
+        "steer": [
+          "e3"
+        ],
+        "status": "matched",
+        "description_change": "equivalent",
+        "reason": "same bed"
+      },
+      {
+        "original": [
+          "e4"
+        ],
+        "steer": [],
+        "status": "original_only",
+        "description_change": "absent",
+        "reason": "blanket absent in steer"
+      },
+      {
+        "original": [
+          "e5"
+        ],
+        "steer": [
+          "e4"
+        ],
+        "status": "matched",
+        "description_change": "equivalent",
+        "reason": "same head"
+      }
+    ],
+    "changes": [
+      {
+        "pair_id": "281331",
+        "side": "original",
+        "fact_id": "entity_e4",
+        "entity_id": "e4",
+        "type": "entity",
+        "slot": "existence",
+        "value": "blanket",
+        "role": "S",
+        "action": "loss",
+        "alignment_status": "removed",
+        "edge_index": 3,
+        "uncertain": false,
+        "parent_visual_label": "supported",
+        "visual_label": "supported"
+      },
+      {
+        "pair_id": "281331",
+        "side": "original",
+        "fact_id": "a1",
+        "entity_id": "e4",
+        "type": "attribute",
+        "slot": "shape",
+        "value": "striped",
+        "role": "S",
+        "action": "loss",
+        "alignment_status": "removed",
+        "edge_index": 5,
+        "uncertain": false,
+        "parent_visual_label": "supported",
+        "visual_label": "supported",
+        "attribute_removal_component": "parent_removed"
+      },
+      {
+        "pair_id": "281331",
+        "side": "steer",
+        "fact_id": "a1",
+        "entity_id": "e2",
+        "type": "attribute",
+        "slot": "material",
+        "value": "hardwood",
+        "role": "S",
+        "action": "gain",
+        "alignment_status": "added",
+        "edge_index": 6,
+        "uncertain": false,
+        "parent_visual_label": "supported",
+        "visual_label": "supported"
+      }
+    ],
+    "image_path": "C:\\Users\\ROG\\Desktop\\icassp论文项目\\datasets\\coco2014\\val2014\\COCO_val2014_000000281331.jpg"
+  },
+  {
+    "pair_id": "276066",
+    "original": "The image features a giraffe standing in a grassy field, with its head turned to the side. The giraffe is positioned in the center of the scene, and its long neck and legs are clearly visible. The field appears to be a mix of grass and dirt, providing a natural habitat for the giraffe.",
+    "steer": "The giraffe is standing in a field with grass and trees in the background.",
+    "observation": {
+      "pair_id": "276066",
+      "original_words": 54,
+      "steer_words": 14,
+      "word_change": -40,
+      "word_reduction": 0.7407407407407407,
+      "length_group": "shorter",
+      "pos_original": {
+        "DET": 11,
+        "NOUN": 16,
+        "VERB": 6,
+        "ADP": 6,
+        "ADJ": 4,
+        "SCONJ": 1,
+        "PRON": 2,
+        "AUX": 3,
+        "CCONJ": 3,
+        "ADV": 1,
+        "PART": 1
+      },
+      "pos_steer": {
+        "DET": 3,
+        "NOUN": 5,
+        "AUX": 1,
+        "VERB": 1,
+        "ADP": 3,
+        "CCONJ": 1
+      },
+      "pos_net_reduction": {
+        "ADJ": 4,
+        "ADP": 3,
+        "ADV": 1,
+        "AUX": 2,
+        "CCONJ": 2,
+        "DET": 8,
+        "NOUN": 11,
+        "PART": 1,
+        "PRON": 2,
+        "SCONJ": 1,
+        "VERB": 5
+      },
+      "pos_reduction_contribution": {
+        "ADJ": 0.07407407407407407,
+        "ADP": 0.05555555555555555,
+        "ADV": 0.018518518518518517,
+        "AUX": 0.037037037037037035,
+        "CCONJ": 0.037037037037037035,
+        "DET": 0.14814814814814814,
+        "NOUN": 0.2037037037037037,
+        "PART": 0.018518518518518517,
+        "PRON": 0.037037037037037035,
+        "SCONJ": 0.018518518518518517,
+        "VERB": 0.09259259259259259
+      },
+      "supported_change": "mixed",
+      "hallucination_change": "unchanged",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged"
+        ]
+      },
+      "matrix_classifiable": true,
+      "hallucination_unchanged_subtype": "both_zero_confirmed",
+      "components": [
+        {
+          "type": "entity",
+          "role": "S",
+          "original_count": 6,
+          "steer_count": 4,
+          "retained": 3,
+          "loss": 3,
+          "gain": 1,
+          "removed": 3,
+          "added": 1,
+          "modified_out": 0,
+          "modified_in": 0,
+          "possible_loss": 0,
+          "possible_gain": 0
+        },
+        {
+          "type": "entity",
+          "role": "H",
+          "original_count": 0,
+          "steer_count": 0,
+          "retained": 0,
+          "loss": 0,
+          "gain": 0,
+          "removed": 0,
+          "added": 0,
+          "modified_out": 0,
+          "modified_in": 0,
+          "possible_loss": 0,
+          "possible_gain": 0
+        },
+        {
+          "type": "attribute",
+          "role": "S",
+          "original_count": 2,
+          "steer_count": 0,
+          "retained": 0,
+          "loss": 2,
+          "gain": 0,
+          "removed": 2,
+          "added": 0,
+          "modified_out": 0,
+          "modified_in": 0,
+          "possible_loss": 0,
+          "possible_gain": 0
+        },
+        {
+          "type": "attribute",
+          "role": "H",
+          "original_count": 0,
+          "steer_count": 0,
+          "retained": 0,
+          "loss": 0,
+          "gain": 0,
+          "removed": 0,
+          "added": 0,
+          "modified_out": 0,
+          "modified_in": 0,
+          "possible_loss": 0,
+          "possible_gain": 0
+        }
+      ],
+      "attribute_removal_components": {
+        "parent_removed": 2
+      },
+      "quality": {
+        "extraction_issues": 0
+      },
+      "accepted_facts": 12,
+      "independent_visual_accuracy_available": false,
+      "entity_mentions": {
+        "original": 9,
+        "steer": 4
+      },
+      "repeat_mention_proxy": {
+        "original": 3,
+        "steer": 0
+      },
+      "issue_impact_audit": [],
+      "missing_component_types": [],
+      "component_states": {
+        "entity_S": [
+          "mixed"
+        ],
+        "entity_H": [
+          "unchanged"
+        ],
+        "attribute_S": [
+          "lost"
+        ],
+        "attribute_H": [
+          "unchanged"
+        ]
+      },
+      "cardinality_bounds_audit": [
+        {
+          "component": "entity_S",
+          "original_count_lower": 6,
+          "original_count_upper": 6,
+          "steer_count_lower": 4,
+          "steer_count_upper": 4,
+          "minimum_gain_from_counts": 0,
+          "minimum_loss_from_counts": 2,
+          "eligible": true,
+          "disabled_reason": null,
+          "before": [
+            "mixed"
+          ],
+          "after": [
+            "mixed"
+          ]
+        },
+        {
+          "component": "entity_H",
+          "original_count_lower": 0,
+          "original_count_upper": 0,
+          "steer_count_lower": 0,
+          "steer_count_upper": 0,
+          "minimum_gain_from_counts": 0,
+          "minimum_loss_from_counts": 0,
+          "eligible": true,
+          "disabled_reason": null,
+          "before": [
+            "unchanged"
+          ],
+          "after": [
+            "unchanged"
+          ]
+        },
+        {
+          "component": "attribute_S",
+          "original_count_lower": 2,
+          "original_count_upper": 2,
+          "steer_count_lower": 0,
+          "steer_count_upper": 0,
+          "minimum_gain_from_counts": 0,
+          "minimum_loss_from_counts": 2,
+          "eligible": true,
+          "disabled_reason": null,
+          "before": [
+            "lost"
+          ],
+          "after": [
+            "lost"
+          ]
+        },
+        {
+          "component": "attribute_H",
+          "original_count_lower": 0,
+          "original_count_upper": 0,
+          "steer_count_lower": 0,
+          "steer_count_upper": 0,
+          "minimum_gain_from_counts": 0,
+          "minimum_loss_from_counts": 0,
+          "eligible": true,
+          "disabled_reason": null,
+          "before": [
+            "unchanged"
+          ],
+          "after": [
+            "unchanged"
+          ]
+        }
+      ],
+      "matrix_method": "v2_events_intersect_necessary_cardinality_bounds_v4"
+    },
+    "entity_alignment": [
+      {
+        "original": [
+          "e1"
+        ],
+        "steer": [
+          "e1"
+        ],
+        "status": "matched",
+        "description_change": "equivalent",
+        "reason": "same_subject_equivalent"
+      },
+      {
+        "original": [
+          "e2"
+        ],
+        "steer": [
+          "e2"
+        ],
+        "status": "matched",
+        "description_change": "equivalent",
+        "reason": "same_subject_equivalent"
+      },
+      {
+        "original": [
+          "e5"
+        ],
+        "steer": [
+          "e3"
+        ],
+        "status": "matched",
+        "description_change": "equivalent",
+        "reason": "same_subject_equivalent"
+      },
+      {
+        "original": [
+          "e3"
+        ],
+        "steer": [],
+        "status": "original_only",
+        "description_change": "absent",
+        "reason": "absent_from_steer"
+      },
+      {
+        "original": [
+          "e4"
+        ],
+        "steer": [],
+        "status": "original_only",
+        "description_change": "absent",
+        "reason": "absent_from_steer"
+      },
+      {
+        "original": [
+          "e6"
+        ],
+        "steer": [],
+        "status": "original_only",
+        "description_change": "absent",
+        "reason": "absent_from_steer"
+      },
+      {
+        "original": [],
+        "steer": [
+          "e4"
+        ],
+        "status": "steer_only",
+        "description_change": "absent",
+        "reason": "absent_from_original"
+      }
+    ],
+    "changes": [
+      {
+        "pair_id": "276066",
+        "side": "original",
+        "fact_id": "entity_e3",
+        "entity_id": "e3",
+        "type": "entity",
+        "slot": "existence",
+        "value": "neck",
+        "role": "S",
+        "action": "loss",
+        "alignment_status": "removed",
+        "edge_index": 3,
+        "uncertain": false,
+        "parent_visual_label": "supported",
+        "visual_label": "supported"
+      },
+      {
+        "pair_id": "276066",
+        "side": "original",
+        "fact_id": "entity_e4",
+        "entity_id": "e4",
+        "type": "entity",
+        "slot": "existence",
+        "value": "legs",
+        "role": "S",
+        "action": "loss",
+        "alignment_status": "removed",
+        "edge_index": 4,
+        "uncertain": false,
+        "parent_visual_label": "supported",
+        "visual_label": "supported"
+      },
+      {
+        "pair_id": "276066",
+        "side": "original",
+        "fact_id": "entity_e6",
+        "entity_id": "e6",
+        "type": "entity",
+        "slot": "existence",
+        "value": "dirt",
+        "role": "S",
+        "action": "loss",
+        "alignment_status": "removed",
+        "edge_index": 5,
+        "uncertain": false,
+        "parent_visual_label": "supported",
+        "visual_label": "supported"
+      },
+      {
+        "pair_id": "276066",
+        "side": "original",
+        "fact_id": "a1",
+        "entity_id": "e3",
+        "type": "attribute",
+        "slot": "size",
+        "value": "long",
+        "role": "S",
+        "action": "loss",
+        "alignment_status": "removed",
+        "edge_index": 6,
+        "uncertain": false,
+        "parent_visual_label": "supported",
+        "visual_label": "supported",
+        "attribute_removal_component": "parent_removed"
+      },
+      {
+        "pair_id": "276066",
+        "side": "original",
+        "fact_id": "a2",
+        "entity_id": "e4",
+        "type": "attribute",
+        "slot": "size",
+        "value": "long",
+        "role": "S",
+        "action": "loss",
+        "alignment_status": "removed",
+        "edge_index": 7,
+        "uncertain": false,
+        "parent_visual_label": "supported",
+        "visual_label": "supported",
+        "attribute_removal_component": "parent_removed"
+      },
+      {
+        "pair_id": "276066",
+        "side": "steer",
+        "fact_id": "entity_e4",
+        "entity_id": "e4",
+        "type": "entity",
+        "slot": "existence",
+        "value": "tree",
+        "role": "S",
+        "action": "gain",
+        "alignment_status": "added",
+        "edge_index": 8,
+        "uncertain": false,
+        "parent_visual_label": "supported",
+        "visual_label": "supported"
+      }
+    ],
+    "image_path": "C:\\Users\\ROG\\Desktop\\icassp论文项目\\datasets\\coco2014\\val2014\\COCO_val2014_000000276066.jpg"
+  },
+  {
+    "pair_id": "438426",
+    "original": "The image features a man wearing a red and black plaid shirt with a brown tie. The tie has a skull design on it, adding a unique touch to the outfit. The man is dressed in a suit, which complements the shirt and tie. The overall appearance of the man is stylish and well-put-together.",
+    "steer": "The image shows a person wearing a red plaid shirt with a brown tie.",
+    "observation": {
+      "pair_id": "438426",
+      "original_words": 56,
+      "steer_words": 14,
+      "word_change": -42,
+      "word_reduction": 0.75,
+      "length_group": "shorter",
+      "pos_original": {
+        "DET": 13,
+        "NOUN": 16,
+        "VERB": 8,
+        "ADJ": 6,
+        "CCONJ": 3,
+        "ADP": 5,
+        "PRON": 2,
+        "AUX": 2,
+        "ADV": 1
+      },
+      "pos_steer": {
+        "DET": 4,
+        "NOUN": 5,
+        "VERB": 2,
+        "ADJ": 2,
+        "ADP": 1
+      },
+      "pos_net_reduction": {
+        "ADJ": 4,
+        "ADP": 4,
+        "ADV": 1,
+        "AUX": 2,
+        "CCONJ": 3,
+        "DET": 9,
+        "NOUN": 11,
+        "PRON": 2,
+        "VERB": 6
+      },
+      "pos_reduction_contribution": {
+        "ADJ": 0.07142857142857142,
+        "ADP": 0.07142857142857142,
+        "ADV": 0.017857142857142856,
+        "AUX": 0.03571428571428571,
+        "CCONJ": 0.05357142857142857,
+        "DET": 0.16071428571428573,
+        "NOUN": 0.19642857142857142,
+        "PRON": 0.03571428571428571,
+        "VERB": 0.10714285714285714
+      },
+      "supported_change": "mixed",
+      "hallucination_change": "unchanged",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged"
+        ]
+      },
+      "matrix_classifiable": true,
+      "hallucination_unchanged_subtype": "both_zero_confirmed",
+      "components": [
+        {
+          "type": "entity",
+          "role": "S",
+          "original_count": 4,
+          "steer_count": 3,
+          "retained": 2,
+          "loss": 2,
+          "gain": 1,
+          "removed": 1,
+          "added": 0,
+          "modified_out": 1,
+          "modified_in": 1,
+          "possible_loss": 0,
+          "possible_gain": 0
+        },
+        {
+          "type": "entity",
+          "role": "H",
+          "original_count": 0,
+          "steer_count": 0,
+          "retained": 0,
+          "loss": 0,
+          "gain": 0,
+          "removed": 0,
+          "added": 0,
+          "modified_out": 0,
+          "modified_in": 0,
+          "possible_loss": 0,
+          "possible_gain": 0
+        },
+        {
+          "type": "attribute",
+          "role": "S",
+          "original_count": 2,
+          "steer_count": 2,
+          "retained": 1,
+          "loss": 1,
+          "gain": 1,
+          "removed": 0,
+          "added": 0,
+          "modified_out": 1,
+          "modified_in": 1,
+          "possible_loss": 0,
+          "possible_gain": 0
+        },
+        {
+          "type": "attribute",
+          "role": "H",
+          "original_count": 0,
+          "steer_count": 0,
+          "retained": 0,
+          "loss": 0,
+          "gain": 0,
+          "removed": 0,
+          "added": 0,
+          "modified_out": 0,
+          "modified_in": 0,
+          "possible_loss": 0,
+          "possible_gain": 0
+        }
+      ],
+      "attribute_removal_components": {},
+      "quality": {
+        "extraction_issues": 0
+      },
+      "accepted_facts": 11,
+      "independent_visual_accuracy_available": false,
+      "entity_mentions": {
+        "original": 9,
+        "steer": 3
+      },
+      "repeat_mention_proxy": {
+        "original": 5,
+        "steer": 0
+      },
+      "issue_impact_audit": [],
+      "missing_component_types": [],
+      "component_states": {
+        "entity_S": [
+          "mixed"
+        ],
+        "entity_H": [
+          "unchanged"
+        ],
+        "attribute_S": [
+          "mixed"
+        ],
+        "attribute_H": [
+          "unchanged"
+        ]
+      },
+      "cardinality_bounds_audit": [
+        {
+          "component": "entity_S",
+          "original_count_lower": 4,
+          "original_count_upper": 4,
+          "steer_count_lower": 3,
+          "steer_count_upper": 3,
+          "minimum_gain_from_counts": 0,
+          "minimum_loss_from_counts": 1,
+          "eligible": true,
+          "disabled_reason": null,
+          "before": [
+            "mixed"
+          ],
+          "after": [
+            "mixed"
+          ]
+        },
+        {
+          "component": "entity_H",
+          "original_count_lower": 0,
+          "original_count_upper": 0,
+          "steer_count_lower": 0,
+          "steer_count_upper": 0,
+          "minimum_gain_from_counts": 0,
+          "minimum_loss_from_counts": 0,
+          "eligible": true,
+          "disabled_reason": null,
+          "before": [
+            "unchanged"
+          ],
+          "after": [
+            "unchanged"
+          ]
+        },
+        {
+          "component": "attribute_S",
+          "original_count_lower": 2,
+          "original_count_upper": 2,
+          "steer_count_lower": 2,
+          "steer_count_upper": 2,
+          "minimum_gain_from_counts": 0,
+          "minimum_loss_from_counts": 0,
+          "eligible": true,
+          "disabled_reason": null,
+          "before": [
+            "mixed"
+          ],
+          "after": [
+            "mixed"
+          ]
+        },
+        {
+          "component": "attribute_H",
+          "original_count_lower": 0,
+          "original_count_upper": 0,
+          "steer_count_lower": 0,
+          "steer_count_upper": 0,
+          "minimum_gain_from_counts": 0,
+          "minimum_loss_from_counts": 0,
+          "eligible": true,
+          "disabled_reason": null,
+          "before": [
+            "unchanged"
+          ],
+          "after": [
+            "unchanged"
+          ]
+        }
+      ],
+      "matrix_method": "v2_events_intersect_necessary_cardinality_bounds_v4"
+    },
+    "entity_alignment": [
+      {
+        "original": [
+          "e1"
+        ],
+        "steer": [
+          "e1"
+        ],
+        "status": "matched",
+        "description_change": "generalized",
+        "reason": "same_subject_generalized"
+      },
+      {
+        "original": [
+          "e2"
+        ],
+        "steer": [
+          "e2"
+        ],
+        "status": "matched",
+        "description_change": "equivalent",
+        "reason": "same_subject_equivalent"
+      },
+      {
+        "original": [
+          "e3"
+        ],
+        "steer": [
+          "e3"
+        ],
+        "status": "matched",
+        "description_change": "equivalent",
+        "reason": "same_subject_equivalent"
+      },
+      {
+        "original": [
+          "e4"
+        ],
+        "steer": [],
+        "status": "original_only",
+        "description_change": "absent",
+        "reason": "suit_absent_in_steer"
+      }
+    ],
+    "changes": [
+      {
+        "pair_id": "438426",
+        "side": "original",
+        "fact_id": "entity_e1",
+        "entity_id": "e1",
+        "type": "entity",
+        "slot": "existence",
+        "value": "man",
+        "role": "S",
+        "action": "loss",
+        "alignment_status": "modified",
+        "edge_index": 0,
+        "uncertain": false,
+        "parent_visual_label": "supported",
+        "visual_label": "supported"
+      },
+      {
+        "pair_id": "438426",
+        "side": "steer",
+        "fact_id": "entity_e1",
+        "entity_id": "e1",
+        "type": "entity",
+        "slot": "existence",
+        "value": "person",
+        "role": "S",
+        "action": "gain",
+        "alignment_status": "modified",
+        "edge_index": 0,
+        "uncertain": false,
+        "parent_visual_label": "supported",
+        "visual_label": "supported"
+      },
+      {
+        "pair_id": "438426",
+        "side": "original",
+        "fact_id": "entity_e4",
+        "entity_id": "e4",
+        "type": "entity",
+        "slot": "existence",
+        "value": "suit",
+        "role": "S",
+        "action": "loss",
+        "alignment_status": "removed",
+        "edge_index": 3,
+        "uncertain": false,
+        "parent_visual_label": "supported",
+        "visual_label": "supported"
+      },
+      {
+        "pair_id": "438426",
+        "side": "original",
+        "fact_id": "a1",
+        "entity_id": "e2",
+        "type": "attribute",
+        "slot": "color",
+        "value": "red and black",
+        "role": "S",
+        "action": "loss",
+        "alignment_status": "modified",
+        "edge_index": 4,
+        "uncertain": false,
+        "parent_visual_label": "supported",
+        "visual_label": "supported"
+      },
+      {
+        "pair_id": "438426",
+        "side": "steer",
+        "fact_id": "a1",
+        "entity_id": "e2",
+        "type": "attribute",
+        "slot": "color",
+        "value": "red",
+        "role": "S",
+        "action": "gain",
+        "alignment_status": "modified",
+        "edge_index": 4,
+        "uncertain": false,
+        "parent_visual_label": "supported",
+        "visual_label": "supported"
+      }
+    ],
+    "image_path": "C:\\Users\\ROG\\Desktop\\icassp论文项目\\datasets\\coco2014\\val2014\\COCO_val2014_000000438426.jpg"
+  },
+  {
+    "pair_id": "38438",
+    "original": "The image features a white cat lying on a rug, playfully interacting with a pair of shoes. The cat is positioned between the shoes, with one shoe on its left side and the other on its right side. The cat appears to be enjoying the attention and is likely playing with the shoes. The scene is set on a carpeted floor, creating a cozy and comfortable atmosphere.",
+    "steer": "The image depicts a white cat laying on a rugged floor. The cat is playing with shoes and appears to be chewing on them. There are two pairs of shoes on the floor, one pair is blue and the other pair is black. The cat is also chewing on a pair of shoes.",
+    "observation": {
+      "pair_id": "38438",
+      "original_words": 67,
+      "steer_words": 53,
+      "word_change": -14,
+      "word_reduction": 0.208955223880597,
+      "length_group": "shorter",
+      "pos_original": {
+        "DET": 13,
+        "NOUN": 16,
+        "VERB": 10,
+        "ADJ": 6,
+        "ADP": 9,
+        "ADV": 2,
+        "AUX": 4,
+        "NUM": 1,
+        "PRON": 2,
+        "CCONJ": 3,
+        "PART": 1
+      },
+      "pos_steer": {
+        "DET": 8,
+        "NOUN": 13,
+        "VERB": 7,
+        "ADJ": 5,
+        "ADP": 7,
+        "AUX": 5,
+        "CCONJ": 2,
+        "PART": 1,
+        "PRON": 2,
+        "NUM": 2,
+        "ADV": 1
+      },
+      "pos_net_reduction": {
+        "ADJ": 1,
+        "ADP": 2,
+        "ADV": 1,
+        "AUX": -1,
+        "CCONJ": 1,
+        "DET": 5,
+        "NOUN": 3,
+        "NUM": -1,
+        "PART": 0,
+        "PRON": 0,
+        "VERB": 3
+      },
+      "pos_reduction_contribution": {
+        "ADJ": 0.014925373134328358,
+        "ADP": 0.029850746268656716,
+        "ADV": 0.014925373134328358,
+        "AUX": -0.014925373134328358,
+        "CCONJ": 0.014925373134328358,
+        "DET": 0.07462686567164178,
+        "NOUN": 0.04477611940298507,
+        "NUM": -0.014925373134328358,
+        "PART": 0.0,
+        "PRON": 0.0,
+        "VERB": 0.04477611940298507
+      },
+      "supported_change": "mixed",
+      "hallucination_change": "unchanged",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged"
+        ]
+      },
+      "matrix_classifiable": true,
+      "hallucination_unchanged_subtype": "both_zero_confirmed",
+      "components": [
+        {
+          "type": "entity",
+          "role": "S",
+          "original_count": 4,
+          "steer_count": 5,
+          "retained": 3,
+          "loss": 1,
+          "gain": 2,
+          "removed": 1,
+          "added": 2,
+          "modified_out": 0,
+          "modified_in": 0,
+          "possible_loss": 0,
+          "possible_gain": 0
+        },
+        {
+          "type": "entity",
+          "role": "H",
+          "original_count": 0,
+          "steer_count": 0,
+          "retained": 0,
+          "loss": 0,
+          "gain": 0,
+          "removed": 0,
+          "added": 0,
+          "modified_out": 0,
+          "modified_in": 0,
+          "possible_loss": 0,
+          "possible_gain": 0
+        },
+        {
+          "type": "attribute",
+          "role": "S",
+          "original_count": 1,
+          "steer_count": 3,
+          "retained": 1,
+          "loss": 0,
+          "gain": 2,
+          "removed": 0,
+          "added": 2,
+          "modified_out": 0,
+          "modified_in": 0,
+          "possible_loss": 0,
+          "possible_gain": 0
+        },
+        {
+          "type": "attribute",
+          "role": "H",
+          "original_count": 0,
+          "steer_count": 0,
+          "retained": 0,
+          "loss": 0,
+          "gain": 0,
+          "removed": 0,
+          "added": 0,
+          "modified_out": 0,
+          "modified_in": 0,
+          "possible_loss": 0,
+          "possible_gain": 0
+        }
+      ],
+      "attribute_removal_components": {},
+      "quality": {
+        "extraction_issues": 0
+      },
+      "accepted_facts": 13,
+      "independent_visual_accuracy_available": false,
+      "entity_mentions": {
+        "original": 9,
+        "steer": 10
+      },
+      "repeat_mention_proxy": {
+        "original": 5,
+        "steer": 5
+      },
+      "issue_impact_audit": [],
+      "missing_component_types": [],
+      "component_states": {
+        "entity_S": [
+          "mixed"
+        ],
+        "entity_H": [
+          "unchanged"
+        ],
+        "attribute_S": [
+          "gained"
+        ],
+        "attribute_H": [
+          "unchanged"
+        ]
+      },
+      "cardinality_bounds_audit": [
+        {
+          "component": "entity_S",
+          "original_count_lower": 4,
+          "original_count_upper": 4,
+          "steer_count_lower": 5,
+          "steer_count_upper": 5,
+          "minimum_gain_from_counts": 1,
+          "minimum_loss_from_counts": 0,
+          "eligible": true,
+          "disabled_reason": null,
+          "before": [
+            "mixed"
+          ],
+          "after": [
+            "mixed"
+          ]
+        },
+        {
+          "component": "entity_H",
+          "original_count_lower": 0,
+          "original_count_upper": 0,
+          "steer_count_lower": 0,
+          "steer_count_upper": 0,
+          "minimum_gain_from_counts": 0,
+          "minimum_loss_from_counts": 0,
+          "eligible": true,
+          "disabled_reason": null,
+          "before": [
+            "unchanged"
+          ],
+          "after": [
+            "unchanged"
+          ]
+        },
+        {
+          "component": "attribute_S",
+          "original_count_lower": 1,
+          "original_count_upper": 1,
+          "steer_count_lower": 3,
+          "steer_count_upper": 3,
+          "minimum_gain_from_counts": 2,
+          "minimum_loss_from_counts": 0,
+          "eligible": true,
+          "disabled_reason": null,
+          "before": [
+            "gained"
+          ],
+          "after": [
+            "gained"
+          ]
+        },
+        {
+          "component": "attribute_H",
+          "original_count_lower": 0,
+          "original_count_upper": 0,
+          "steer_count_lower": 0,
+          "steer_count_upper": 0,
+          "minimum_gain_from_counts": 0,
+          "minimum_loss_from_counts": 0,
+          "eligible": true,
+          "disabled_reason": null,
+          "before": [
+            "unchanged"
+          ],
+          "after": [
+            "unchanged"
+          ]
+        }
+      ],
+      "matrix_method": "v2_events_intersect_necessary_cardinality_bounds_v4"
+    },
+    "entity_alignment": [
+      {
+        "original": [
+          "e1"
+        ],
+        "steer": [
+          "e1"
+        ],
+        "status": "matched",
+        "description_change": "equivalent",
+        "reason": "same cat, white color, playing with shoes"
+      },
+      {
+        "original": [
+          "e2"
+        ],
+        "steer": [
+          "e2"
+        ],
+        "status": "matched",
+        "description_change": "equivalent",
+        "reason": "rug vs floor: same surface location"
+      },
+      {
+        "original": [
+          "e3"
+        ],
+        "steer": [
+          "e3"
+        ],
+        "status": "matched",
+        "description_change": "equivalent",
+        "reason": "shoes mentioned in both"
+      },
+      {
+        "original": [
+          "e4"
+        ],
+        "steer": [],
+        "status": "original_only",
+        "description_change": "absent",
+        "reason": "floor only in original"
+      },
+      {
+        "original": [],
+        "steer": [
+          "e4"
+        ],
+        "status": "steer_only",
+        "description_change": "absent",
+        "reason": "pair of shoes only in steer"
+      },
+      {
+        "original": [],
+        "steer": [
+          "e5"
+        ],
+        "status": "steer_only",
+        "description_change": "absent",
+        "reason": "pair of shoes only in steer"
+      }
+    ],
+    "changes": [
+      {
+        "pair_id": "38438",
+        "side": "original",
+        "fact_id": "entity_e4",
+        "entity_id": "e4",
+        "type": "entity",
+        "slot": "existence",
+        "value": "floor",
+        "role": "S",
+        "action": "loss",
+        "alignment_status": "removed",
+        "edge_index": 3,
+        "uncertain": false,
+        "parent_visual_label": "supported",
+        "visual_label": "supported"
+      },
+      {
+        "pair_id": "38438",
+        "side": "steer",
+        "fact_id": "entity_e4",
+        "entity_id": "e4",
+        "type": "entity",
+        "slot": "existence",
+        "value": "pair of shoes",
+        "role": "S",
+        "action": "gain",
+        "alignment_status": "added",
+        "edge_index": 5,
+        "uncertain": false,
+        "parent_visual_label": "supported",
+        "visual_label": "supported"
+      },
+      {
+        "pair_id": "38438",
+        "side": "steer",
+        "fact_id": "entity_e5",
+        "entity_id": "e5",
+        "type": "entity",
+        "slot": "existence",
+        "value": "pair of shoes",
+        "role": "S",
+        "action": "gain",
+        "alignment_status": "added",
+        "edge_index": 6,
+        "uncertain": false,
+        "parent_visual_label": "supported",
+        "visual_label": "supported"
+      },
+      {
+        "pair_id": "38438",
+        "side": "steer",
+        "fact_id": "a2",
+        "entity_id": "e4",
+        "type": "attribute",
+        "slot": "color",
+        "value": "blue",
+        "role": "S",
+        "action": "gain",
+        "alignment_status": "added",
+        "edge_index": 7,
+        "uncertain": false,
+        "parent_visual_label": "supported",
+        "visual_label": "supported"
+      },
+      {
+        "pair_id": "38438",
+        "side": "steer",
+        "fact_id": "a3",
+        "entity_id": "e5",
+        "type": "attribute",
+        "slot": "color",
+        "value": "black",
+        "role": "S",
+        "action": "gain",
+        "alignment_status": "added",
+        "edge_index": 8,
+        "uncertain": false,
+        "parent_visual_label": "supported",
+        "visual_label": "supported"
+      }
+    ],
+    "image_path": "C:\\Users\\ROG\\Desktop\\icassp论文项目\\datasets\\coco2014\\val2014\\COCO_val2014_000000038438.jpg"
+  }
+]

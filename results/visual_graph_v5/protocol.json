@@ -1,0 +1,14 @@
+{
+  "source_sha": "29e073ac332babc1e8f74796d23429a3183eb71c75087a10be966485c4e30e16",
+  "source_coverage": 292,
+  "denominator": 400,
+  "model": "deepseek-flash",
+  "intervention": "only visual query organization: joint region inventory and parent-bound evidence; fixed old M3/M2",
+  "fewshot": 6,
+  "references_sent": false,
+  "target_policy": "all residual uncertain/pending plus parent conflicts across all 400 pairs",
+  "max_claims_per_call": 24,
+  "requests": 117,
+  "claims": 227,
+  "merge": "new condition replaces uncertain only; changed decided label becomes uncertain; no majority vote"
+}
