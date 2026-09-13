@@ -1,0 +1,13 @@
+# M2最终候选的审计依据
+
+旧Flash对照的50条未匹配实体中，诊断分组为33条群体/个体对应、4条主要名称口径差异、11条明确漏抽、2条air范围争议。该分组不是修订参考或新模型成绩；复测继续使用冻结的300条旧候选参考。
+
+明确错误包括303499_steer漏coat/public area且把red归person，373677_original漏facade且把wood归building，45094_original把red归glass of red wine容器，69584_original把cloudy sky归wet。这说明仅校验JSON、词面位置与合法slot无法保证语义归属。
+
+本候选保持原schema、Flash一次调用和8个示例，将d7替换为合成的两个人、两件coat、car和door示例，明确颜色属于coat，材料属于door。只追加覆盖与属性归属规则，其他7例不变。示例与提示作为单一模块候选，不声称其子因素贡献已隔离。
+
+`normalize_final`提供两个独立开关：`value_anchors`复用旧的唯一证据内重复词索引修复；`state_support`只拒绝无法由给定value_quotes明确词形支持的六类state。隔离事实、原始输出与理由保留在issues及审计字段中，不能从评估分母悄然删除。该规则不验证否定范围、属性归属或视觉真值，也不引入颜色、材料等槽的语义词典。
+
+复测应分别报告原规范化、仅索引修复、仅state词面检查、两者组合；候选提示与同轮旧提示分别计分。属性主体绑定的示例测试证明示例本身正确，不代表模型在真实文本中已经学会。
+
+参考冲突继续单列：316617_steer明确one person/another person却只保留people群体；265462_original明确one/another/third skateboard却只保留群体；317188_original漏明确提到的phone screen；string/kite string与people/person存在命名口径差异。不得通过事后改参考来宣称模型超过90%。

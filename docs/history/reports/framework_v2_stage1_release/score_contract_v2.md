@@ -1,0 +1,17 @@
+# 固定计分与账本合同
+
+状态：本轮实际采用。模型、语义标签及参考答案均未改变。
+
+M2沿用repair_v1实体lemma口径：实体名词形一致且原文mention区间相交，建立一对一实体对应；事实主类、slot、value与对应主体一致才匹配。属性值仍采用原normal函数。没有增加同义词、范围推断或视觉判定。新correspondences返回相同匹配关系，供逐事实账本使用。
+
+实体同义、部分/整体、群体/个体、推测范围及绑定仍需审核。匹配缺口不能自动认定为语义漏抽；同名同span也不能保证所有指称范围完全等价。当前准确性计分是固定候选符合度，不是人工gold准确率。
+
+参考账本每个参考fact保留一行：300条参考、228条匹配、72条extraction_missing。预测未匹配的36条单独记为候选复核项。missing项的predicted_transition为null，不能补成removed；整文档失败也保留全部对应参考行。
+
+生产账本仍是264条实际有效事实，保留extraction_axis、alignment_axis、visual_axis三个独立状态。参考与生产分母不是同一总体，不能直接相除后称全链准确率。human_truth_denominator为null，因为当前没有完整独立视觉gold。
+
+historical_supported_eligible保持原M6规则；strict_parent_supported_eligible仅是新增旁路字段。未确认绑定和父子冲突保留原始标签，不自动重写S/H/U。
+
+M3仍以固定事实ID组合和状态计分，technical未决不获得正确未决分。M5仍三分类；额外报告可决错误率＝预测S/H与参考不符数量／所有预测S/H数量（参考U上的S/H也计错）。未调用/失败不算U，覆盖与失败分别报告。零分母为N/A。
+
+三重复主翻转率为同query三个结果的三对比较中，不一致次数／总比较次数；另报任一次变化比例。只在三次均成功的query上定义语义翻转率，同时报告完整覆盖；覆盖不足不能用成功子集过关。缓存重放不属于fresh重复。

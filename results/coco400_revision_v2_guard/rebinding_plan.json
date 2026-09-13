@@ -1,0 +1,7 @@
+{
+  "local_quarantined_rows": 10,
+  "new_independent_bindings": 88,
+  "review_calls": 506,
+  "additional_llm_calls_for_local_replay": 0,
+  "first_query_fact_keeps_its_own_visual_label": true
+}

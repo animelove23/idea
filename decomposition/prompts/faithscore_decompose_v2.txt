@@ -1,0 +1,23 @@
+TASK: identify descriptive versus analytical content, then extract atomic facts.
+Read all numbered sentences together. Return exactly this JSON structure:
+{"sentences":[{"sentence_id":"s1","scope":"descriptive","excluded":[],
+"object":[{"fact":"car exists","assertion":"assertive","source_sentences":["s1"]}],
+"attribute":[],"action":[],"relation":[],"count":[]}]}
+
+Account for EVERY input sentence once, in input order. Each sentence needs all
+five category lists even when empty. scope is descriptive, analytical or mixed.
+excluded entries are {"text":"verbatim source substring","reason":"subjective"}.
+Allowed exclusion reasons: subjective, nonvisual_analysis, scene_only, instruction.
+An analytical sentence has no facts and must record the excluded source content.
+A mixed sentence keeps descriptive facts and records only excluded fragments.
+
+Every fact entry has ONLY fact, assertion, source_sentences. assertion is assertive
+or qualified. Sources include the containing sentence; include earlier sentences
+when needed to interpret He/another. Place a cross-sentence count at the sentence
+introducing the additional object. Repeated classes need one existence fact across
+the whole caption. Do not add IDs to facts; software assigns them.
+
+Before finalizing, read EACH source sentence again. Enumerate concrete classes,
+independent properties, poses/activities, explicit relations and quantities. Check
+the last clause and every stated number/unit, clothing color, material and state.
+Return JSON only, without commentary or Markdown.

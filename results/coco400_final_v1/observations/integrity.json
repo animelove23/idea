@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "checksummed_checkpoints": 11363,
+  "recorded_api_calls": 5682,
+  "facts": 5959,
+  "claims": 4482,
+  "pending_claims": 2,
+  "failed_pairs": 0,
+  "shared_claims": 1477,
+  "visual_routing_failures": 0,
+  "pairs_checked": 400,
+  "old_frozen_files_unchanged": 2755,
+  "all_accepted_facts_queued_and_recorded_exactly_once": true,
+  "unique_raw_responses": 5681,
+  "raw_response_models": {
+    "deepseek-flash": 5681
+  },
+  "call_status": {
+    "complete": 5680,
+    "technical_failure": 2
+  },
+  "call_errors": {
+    "URLError": 1
+  },
+  "failure_phases": {
+    "validation": 1,
+    "unknown": 1
+  },
+  "failed_pair_ids": [],
+  "supported_attribute_parent_not_supported": 20,
+  "parent_anomaly_breakdown": {
+    "uncertain": 6,
+    "hallucinated": 14
+  },
+  "strict_statistics_exclude_all_parent_anomalies": true,
+  "semantic_accuracy_measured": false
+}

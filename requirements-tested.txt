@@ -1,0 +1,6 @@
+# Direct dependencies in the Windows / Python 3.12 publication verification.
+spacy==3.8.16
+Pillow==12.3.0
+numpy==2.5.3
+matplotlib==3.11.2
+# spaCy model: en_core_web_md 3.8.0 (install separately via spaCy download).

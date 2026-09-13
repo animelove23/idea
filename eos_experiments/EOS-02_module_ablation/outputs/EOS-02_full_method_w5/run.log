@@ -1,11 +1,0 @@
-/workspace/miniconda3/envs/vista/lib/python3.10/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: '/workspace/miniconda3/envs/vista/lib/python3.10/site-packages/torchvision/image.so: undefined symbol: _ZN3c1017RegisterOperatorsD1Ev'If you don't plan on using image functionality from `torchvision.io`, you can ignore this warning. Otherwise, there might be something wrong with your environment. Did you have `libjpeg` or `libpng` installed before building `torchvision` from source?
-  warn(
-FlashAttention is not installed.
-FlashAttention is not installed.
-FlashAttention is not installed.
-You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
-/workspace/miniconda3/envs/vista/lib/python3.10/site-packages/huggingface_hub/file_download.py:1142: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-use LN for projection:  False
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:16<00:16, 16.28s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:22<00:00, 10.33s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:22<00:00, 11.22s/it]
-  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:10<01:30, 10.03s/it] 20%|██        | 2/10 [00:13<00:48,  6.05s/it] 30%|███       | 3/10 [00:22<00:51,  7.39s/it] 40%|████      | 4/10 [00:45<01:20, 13.47s/it] 50%|█████     | 5/10 [01:06<01:22, 16.51s/it] 60%|██████    | 6/10 [01:13<00:52, 13.07s/it] 70%|███████   | 7/10 [01:19<00:32, 10.90s/it] 80%|████████  | 8/10 [01:26<00:18,  9.49s/it] 90%|█████████ | 9/10 [01:32<00:08,  8.48s/it]100%|██████████| 10/10 [01:40<00:00,  8.27s/it]100%|██████████| 10/10 [01:40<00:00, 10.04s/it]

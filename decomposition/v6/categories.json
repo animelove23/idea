@@ -1,0 +1,28 @@
+{
+  "entity": [
+    "object",
+    "human",
+    "animal",
+    "food",
+    "body_part",
+    "place"
+  ],
+  "relation": [
+    "relation",
+    "action",
+    "spatial",
+    "location"
+  ],
+  "attribute": [
+    "attribute",
+    "color",
+    "material",
+    "shape",
+    "size",
+    "state",
+    "counting"
+  ],
+  "other": [
+    "other"
+  ]
+}

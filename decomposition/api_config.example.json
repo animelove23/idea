@@ -1,0 +1,9 @@
+{
+  "api_key": "",
+  "base_url": "https://api.deepseek.com",
+  "model": "",
+  "timeout": 90,
+  "max_tokens": 8192,
+  "retries": 2,
+  "thinking": "disabled"
+}

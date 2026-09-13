@@ -1,0 +1,29 @@
+{
+  "sample_count": 400,
+  "caption_count": 800,
+  "model": "deepseek-flash",
+  "workers": 8,
+  "shots": {
+    "decompose": 8,
+    "align": 8,
+    "verify": 6
+  },
+  "calls_per_unique_visual_claim": 1,
+  "decomposition_calls_planned": 800,
+  "alignment_calls_maximum": 400,
+  "visual_calls": "one per generated unique claim",
+  "framework_profile": "Final v1 fixed owner+typed",
+  "api_destination": "https://api.deepseek.com",
+  "api_query_excludes": "COCO annotations, CHAIR reference fields, old reference labels and audit conclusions",
+  "references_used_as_visual_gold": false,
+  "automatic_retries_on_model_failures": 0,
+  "selection_sha256": "25ccef301655907d82f68ed776b733664f3df16af2e0ffc33fac03629242b3fa",
+  "source_code_frozen": true,
+  "execution": "8 independent pair pipelines; within each pair original frozen module order",
+  "observation": "length-stratified S/H change matrices, E/A components, POS profiles, explicit unresolved cases",
+  "not_a_new_model_generation_run": true,
+  "observation_code_sha256": "99e51f81aad7a8f5470bf294bedc5c347710cd7521ada3b90fb4a293d1c8a779",
+  "observation_tests_sha256": "ee842365726f10f9f0572bee94a88ed2e064a40f8546b0ce50ed5452ef3b2ad4",
+  "observation_unit_tests_passed": 12,
+  "canary": "first selected pair, then remaining 399 at concurrency 8; transport failure stops before bulk"
+}

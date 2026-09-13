@@ -1,9 +1,0 @@
-{
-  "completed_images": 64,
-  "collapse_k0_vsv_effect_mean": 7.853580102324486,
-  "collapse_k0_vsv_effect_ci95": [7.5638225570321085, 8.154759581759572],
-  "collapse_k0_interaction_mean": 0.29398955404758453,
-  "collapse_k0_interaction_ci95": [0.1444543194025755, 0.4506794553250074],
-  "collapse_k3_interaction_mean": -0.6830050647258759,
-  "collapse_k3_interaction_ci95": [-0.7749207578599453, -0.5897363215684891]
-}

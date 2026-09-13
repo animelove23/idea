@@ -1,0 +1,213 @@
+{
+  "conditions": {
+    "A_scope_only": {
+      "pairs": 400,
+      "matrix_classifiable": 219,
+      "matrix_unresolved": 181,
+      "component_classifiable": {
+        "entity_S": 294,
+        "entity_H": 297,
+        "attribute_S": 312,
+        "attribute_H": 337
+      },
+      "quality": {
+        "visual_uncertain_facts": 377,
+        "extraction_issues": 96,
+        "alignment_semantic_facts": 641,
+        "attributes_on_false_subject": 29,
+        "alignment_technical_facts": 177,
+        "parent_attribute_conflict": 14,
+        "visual_pending_facts": 2
+      },
+      "attribute_removal": {
+        "parent_retained_attribute_removed": 126,
+        "parent_removed": 66
+      },
+      "description_changes": {},
+      "source_labels": "automatic_not_human_gold",
+      "semantic_accuracy_measured": false
+    },
+    "B_alignment": {
+      "pairs": 400,
+      "matrix_classifiable": 195,
+      "matrix_unresolved": 205,
+      "component_classifiable": {
+        "entity_S": 308,
+        "entity_H": 244,
+        "attribute_S": 316,
+        "attribute_H": 318
+      },
+      "quality": {
+        "visual_uncertain_facts": 575,
+        "alignment_technical_facts": 354,
+        "extraction_issues": 96,
+        "alignment_semantic_facts": 343,
+        "attributes_on_false_subject": 28,
+        "retained_label_or_parent_conflicts": 7,
+        "parent_attribute_conflict": 13,
+        "visual_pending_facts": 2
+      },
+      "attribute_removal": {
+        "parent_retained_attribute_removed": 128,
+        "parent_removed": 62,
+        "other_or_unresolved": 7
+      },
+      "description_changes": {
+        "generalized": 62,
+        "specialized": 37
+      },
+      "source_labels": "automatic_not_human_gold",
+      "semantic_accuracy_measured": false
+    },
+    "B2_local_and_rebinding": {
+      "pairs": 400,
+      "matrix_classifiable": 203,
+      "matrix_unresolved": 197,
+      "component_classifiable": {
+        "entity_S": 317,
+        "entity_H": 252,
+        "attribute_S": 323,
+        "attribute_H": 328
+      },
+      "quality": {
+        "visual_uncertain_facts": 460,
+        "alignment_technical_facts": 279,
+        "extraction_issues": 96,
+        "alignment_semantic_facts": 346,
+        "attributes_on_false_subject": 29,
+        "retained_label_or_parent_conflicts": 7,
+        "parent_attribute_conflict": 14,
+        "visual_pending_facts": 2
+      },
+      "attribute_removal": {
+        "parent_retained_attribute_removed": 129,
+        "parent_removed": 62,
+        "other_or_unresolved": 12
+      },
+      "description_changes": {
+        "generalized": 63,
+        "specialized": 37
+      },
+      "source_labels": "automatic_not_human_gold",
+      "semantic_accuracy_measured": false
+    },
+    "C_reviewed": {
+      "pairs": 400,
+      "matrix_classifiable": 269,
+      "matrix_unresolved": 131,
+      "component_classifiable": {
+        "entity_S": 341,
+        "entity_H": 317,
+        "attribute_S": 328,
+        "attribute_H": 343
+      },
+      "quality": {
+        "alignment_technical_facts": 279,
+        "extraction_issues": 96,
+        "visual_uncertain_facts": 250,
+        "alignment_semantic_facts": 346,
+        "attributes_on_false_subject": 28,
+        "retained_label_or_parent_conflicts": 7,
+        "parent_attribute_conflict": 12,
+        "visual_pending_facts": 2
+      },
+      "attribute_removal": {
+        "parent_retained_attribute_removed": 136,
+        "parent_removed": 67,
+        "other_or_unresolved": 11
+      },
+      "description_changes": {
+        "generalized": 63,
+        "specialized": 37
+      },
+      "source_labels": "automatic_not_human_gold",
+      "semantic_accuracy_measured": false
+    }
+  },
+  "accepted_facts": 5959,
+  "raw_new_alignment": {
+    "decided": 5396,
+    "technical_unresolved": 214,
+    "semantic_unresolved": 349
+  },
+  "old_raw_alignment": {
+    "semantic_unresolved": 655,
+    "technical_unresolved": 111
+  },
+  "review_transitions": [
+    {
+      "purpose": "new_binding",
+      "before": "uncertain",
+      "after": "hallucinated",
+      "count": 2
+    },
+    {
+      "purpose": "new_binding",
+      "before": "uncertain",
+      "after": "supported",
+      "count": 82
+    },
+    {
+      "purpose": "new_binding",
+      "before": "uncertain",
+      "after": "uncertain",
+      "count": 4
+    },
+    {
+      "purpose": "second_review",
+      "before": "hallucinated",
+      "after": "hallucinated",
+      "count": 11
+    },
+    {
+      "purpose": "second_review",
+      "before": "hallucinated",
+      "after": "uncertain",
+      "count": 1
+    },
+    {
+      "purpose": "second_review",
+      "before": "supported",
+      "after": "supported",
+      "count": 70
+    },
+    {
+      "purpose": "second_review",
+      "before": "supported",
+      "after": "uncertain",
+      "count": 6
+    },
+    {
+      "purpose": "second_review",
+      "before": "uncertain",
+      "after": "hallucinated",
+      "count": 43
+    },
+    {
+      "purpose": "second_review",
+      "before": "uncertain",
+      "after": "supported",
+      "count": 74
+    },
+    {
+      "purpose": "second_review",
+      "before": "uncertain",
+      "after": "uncertain",
+      "count": 213
+    }
+  ],
+  "motivation_cell": 69,
+  "motivation_cell_subtypes": {
+    "both_zero_confirmed": 59,
+    "zero_known_but_visual_membership_unknown": 2,
+    "known_nonzero_unchanged": 8
+  },
+  "confirmed_recorded_new_api_calls": 1003,
+  "aborted_started_outcome_unknown": 8,
+  "unique_new_response_ids": 1003,
+  "checksummed_checkpoints": 2014,
+  "old_framework_files_unchanged": 2755,
+  "semantic_accuracy_measured": false,
+  "m3_technical_regression_present": true,
+  "release_status": "tested_candidate_not_accuracy_validated"
+}

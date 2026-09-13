@@ -1,0 +1,19 @@
+{
+  "pairs": 400,
+  "source_manifest_sha": "13d659edcb38bf4b7c6a2b821a498af601e012c722b38c9838043f09bb669816",
+  "stages": [
+    "A_scope_only",
+    "B_alignment",
+    "C_visual_review"
+  ],
+  "align_calls": 400,
+  "visual_review_calls": 406,
+  "model": "deepseek-flash",
+  "workers": 8,
+  "visual_review_rounds": 1,
+  "references_sent": false,
+  "new_shots": "8 synthetic M3 demonstrations; original 6 visual demonstrations",
+  "review_targets": "first-pass uncertain plus their parents and supported-attribute parent conflicts",
+  "first_round_raw_labels_immutable": true,
+  "measurements": "coverage is not accuracy; changed semantic contract not directly comparable to old F1"
+}

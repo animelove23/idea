@@ -1,8 +1,0 @@
-{
-  "schema_version": 2,
-  "prevalence_path": "/workspace/VISTA/newest_find_out/result/termination_audit/manifests/cohort_prevalence_100_v2.json",
-  "prevalence_count": 100,
-  "candidate_path": "/workspace/VISTA/newest_find_out/result/termination_audit/manifests/cohort_m00_candidates_v2.json",
-  "candidate_count": 160,
-  "mechanism_ready": false
-}

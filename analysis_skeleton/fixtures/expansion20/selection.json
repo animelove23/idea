@@ -1,0 +1,167 @@
+{
+  "seed": 1994,
+  "eligible_images": 53,
+  "excluded_previous_ids": [
+    "150639",
+    "212603",
+    "275717",
+    "337055",
+    "3501",
+    "360487",
+    "397351",
+    "54627",
+    "8775"
+  ],
+  "selection": [
+    {
+      "pair_id": "326667",
+      "length_stratum": 1,
+      "stratum_population": 13,
+      "original_words": 70,
+      "steer_words": 7
+    },
+    {
+      "pair_id": "352377",
+      "length_stratum": 1,
+      "stratum_population": 13,
+      "original_words": 83,
+      "steer_words": 62
+    },
+    {
+      "pair_id": "195269",
+      "length_stratum": 1,
+      "stratum_population": 13,
+      "original_words": 80,
+      "steer_words": 56
+    },
+    {
+      "pair_id": "69584",
+      "length_stratum": 1,
+      "stratum_population": 13,
+      "original_words": 63,
+      "steer_words": 28
+    },
+    {
+      "pair_id": "317188",
+      "length_stratum": 1,
+      "stratum_population": 13,
+      "original_words": 70,
+      "steer_words": 19
+    },
+    {
+      "pair_id": "373677",
+      "length_stratum": 2,
+      "stratum_population": 13,
+      "original_words": 92,
+      "steer_words": 55
+    },
+    {
+      "pair_id": "279634",
+      "length_stratum": 2,
+      "stratum_population": 13,
+      "original_words": 94,
+      "steer_words": 50
+    },
+    {
+      "pair_id": "45094",
+      "length_stratum": 2,
+      "stratum_population": 13,
+      "original_words": 89,
+      "steer_words": 38
+    },
+    {
+      "pair_id": "381925",
+      "length_stratum": 2,
+      "stratum_population": 13,
+      "original_words": 86,
+      "steer_words": 40
+    },
+    {
+      "pair_id": "54264",
+      "length_stratum": 2,
+      "stratum_population": 13,
+      "original_words": 98,
+      "steer_words": 46
+    },
+    {
+      "pair_id": "256003",
+      "length_stratum": 3,
+      "stratum_population": 13,
+      "original_words": 101,
+      "steer_words": 6
+    },
+    {
+      "pair_id": "462687",
+      "length_stratum": 3,
+      "stratum_population": 13,
+      "original_words": 106,
+      "steer_words": 43
+    },
+    {
+      "pair_id": "450500",
+      "length_stratum": 3,
+      "stratum_population": 13,
+      "original_words": 101,
+      "steer_words": 64
+    },
+    {
+      "pair_id": "69946",
+      "length_stratum": 3,
+      "stratum_population": 13,
+      "original_words": 106,
+      "steer_words": 78
+    },
+    {
+      "pair_id": "265462",
+      "length_stratum": 3,
+      "stratum_population": 13,
+      "original_words": 98,
+      "steer_words": 48
+    },
+    {
+      "pair_id": "303499",
+      "length_stratum": 4,
+      "stratum_population": 14,
+      "original_words": 115,
+      "steer_words": 43
+    },
+    {
+      "pair_id": "316617",
+      "length_stratum": 4,
+      "stratum_population": 14,
+      "original_words": 117,
+      "steer_words": 58
+    },
+    {
+      "pair_id": "519838",
+      "length_stratum": 4,
+      "stratum_population": 14,
+      "original_words": 106,
+      "steer_words": 52
+    },
+    {
+      "pair_id": "565761",
+      "length_stratum": 4,
+      "stratum_population": 14,
+      "original_words": 130,
+      "steer_words": 73
+    },
+    {
+      "pair_id": "483723",
+      "length_stratum": 4,
+      "stratum_population": 14,
+      "original_words": 109,
+      "steer_words": 42
+    }
+  ],
+  "interpretation": "Stratified developmental diagnostic set, not random population or held-out test.",
+  "no_prediction_in_reference_authoring": true,
+  "protected_stage_files": {
+    "analysis_skeleton\\prompts\\align.txt": "6981af409e4e3c263ec88c68c86eeed668b829d1d4629699914c9092a12e7a44",
+    "analysis_skeleton\\prompts\\decompose.txt": "a323bb7c39b65bc46c57fbf4528a54a548a48992c2462314707f29dc95ecbdb3",
+    "analysis_skeleton\\prompts\\verify.txt": "98e6d726a381fc9d65660ddeeabb280a3a8f280834aa51e96577d7040d4eba2d",
+    "analysis_skeleton\\shots\\align.jsonl": "f603786c415280d692ebf40979a103c5733c882691630f4e641a8bd841b265d7",
+    "analysis_skeleton\\shots\\decompose.jsonl": "ce3c6230a675940b9b3dae2699b7825219bb51bc5f13cb3db0087e3ee30f06f9",
+    "analysis_skeleton\\shots\\verify.jsonl": "19e0779d8746cc6073bb162ad5622ca4c87ed83bffcc942c9c5fe156c11a0475"
+  }
+}

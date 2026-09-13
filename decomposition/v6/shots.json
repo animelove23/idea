@@ -1,0 +1,452 @@
+[
+  {
+    "text": "A woman in a red cotton shirt holds a blue cup.",
+    "output": {
+      "elements": [
+        {
+          "category": "human",
+          "fact": "There is a woman.",
+          "source": "A woman",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "object",
+          "fact": "There is a shirt.",
+          "source": "a red cotton shirt",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "object",
+          "fact": "There is a cup.",
+          "source": "a blue cup",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "color",
+          "fact": "The shirt is red.",
+          "source": "a red cotton shirt",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "material",
+          "fact": "The shirt is cotton.",
+          "source": "a red cotton shirt",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "color",
+          "fact": "The cup is blue.",
+          "source": "a blue cup",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "relation",
+          "fact": "The woman wears the shirt.",
+          "source": "A woman in a red cotton shirt",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "relation",
+          "fact": "The woman holds the cup.",
+          "source": "A woman in a red cotton shirt holds a blue cup.",
+          "assertion": "asserted",
+          "polarity": "positive"
+        }
+      ]
+    }
+  },
+  {
+    "text": "An old wooden bench stands beside a tall tree.",
+    "output": {
+      "elements": [
+        {
+          "category": "object",
+          "fact": "There is a bench.",
+          "source": "An old wooden bench",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "object",
+          "fact": "There is a tree.",
+          "source": "a tall tree",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "state",
+          "fact": "The bench is old.",
+          "source": "An old wooden bench",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "material",
+          "fact": "The bench is wooden.",
+          "source": "An old wooden bench",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "size",
+          "fact": "The tree is tall.",
+          "source": "a tall tree",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "spatial",
+          "fact": "The bench is beside the tree.",
+          "source": "An old wooden bench stands beside a tall tree.",
+          "assertion": "asserted",
+          "polarity": "positive"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Three men stand near a wall. One of them wears a black hat.",
+    "output": {
+      "elements": [
+        {
+          "category": "human",
+          "fact": "There is a group of men.",
+          "source": "Three men",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "counting",
+          "fact": "The described group contains three men.",
+          "source": "Three men",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "object",
+          "fact": "There is a wall.",
+          "source": "a wall",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "action",
+          "fact": "The men are standing.",
+          "source": "Three men stand",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "spatial",
+          "fact": "The men are near the wall.",
+          "source": "Three men stand near a wall.",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "human",
+          "fact": "One of those three men is present.",
+          "source": "Three men stand near a wall. One of them",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "object",
+          "fact": "There is a hat.",
+          "source": "a black hat",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "color",
+          "fact": "The hat is black.",
+          "source": "a black hat",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "relation",
+          "fact": "One of those three men wears the hat.",
+          "source": "Three men stand near a wall. One of them wears a black hat.",
+          "assertion": "asserted",
+          "polarity": "positive"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Two pairs of shoes lie under a table. Several apples are in a bowl.",
+    "output": {
+      "elements": [
+        {
+          "category": "object",
+          "fact": "There are shoes.",
+          "source": "Two pairs of shoes",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "object",
+          "fact": "There is a table.",
+          "source": "a table",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "food",
+          "fact": "There are apples.",
+          "source": "Several apples",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "object",
+          "fact": "There is a bowl.",
+          "source": "a bowl",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "counting",
+          "fact": "There are two pairs of the described shoes.",
+          "source": "Two pairs of shoes",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "counting",
+          "fact": "There are several of the described apples.",
+          "source": "Several apples",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "spatial",
+          "fact": "The shoes are under the table.",
+          "source": "Two pairs of shoes lie under a table.",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "spatial",
+          "fact": "The apples are in the bowl.",
+          "source": "Several apples are in a bowl.",
+          "assertion": "asserted",
+          "polarity": "positive"
+        }
+      ]
+    }
+  },
+  {
+    "text": "A hand holds a phone with a bright screen. The phone may be broken.",
+    "output": {
+      "elements": [
+        {
+          "category": "body_part",
+          "fact": "There is a hand.",
+          "source": "A hand",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "object",
+          "fact": "There is a phone.",
+          "source": "a phone",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "object",
+          "fact": "There is a screen.",
+          "source": "a bright screen",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "relation",
+          "fact": "The hand holds the phone.",
+          "source": "A hand holds a phone",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "relation",
+          "fact": "The phone has a screen.",
+          "source": "a phone with a bright screen",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "attribute",
+          "fact": "The screen is bright.",
+          "source": "a bright screen",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "state",
+          "fact": "The phone may be broken.",
+          "source": "The phone may be broken.",
+          "assertion": "speculative",
+          "polarity": "positive"
+        }
+      ]
+    }
+  },
+  {
+    "text": "A man sits on a bench and prepares to throw a ball. He is not holding a bag.",
+    "output": {
+      "elements": [
+        {
+          "category": "human",
+          "fact": "There is a man.",
+          "source": "A man",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "object",
+          "fact": "There is a bench.",
+          "source": "a bench",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "object",
+          "fact": "There is a ball.",
+          "source": "a ball",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "action",
+          "fact": "The man is sitting.",
+          "source": "A man sits",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "spatial",
+          "fact": "The man is on the bench.",
+          "source": "A man sits on a bench",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "action",
+          "fact": "The man prepares to throw a ball.",
+          "source": "A man sits on a bench and prepares to throw a ball.",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "relation",
+          "fact": "The man is not holding a bag.",
+          "source": "A man sits on a bench and prepares to throw a ball. He is not holding a bag.",
+          "assertion": "asserted",
+          "polarity": "negative"
+        }
+      ]
+    }
+  },
+  {
+    "text": "A surfboard leans against a wall. Another surfboard is on the sand.",
+    "output": {
+      "elements": [
+        {
+          "category": "object",
+          "fact": "There is a surfboard.",
+          "source": "A surfboard",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "object",
+          "fact": "There is a wall.",
+          "source": "a wall",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "object",
+          "fact": "There is another surfboard.",
+          "source": "Another surfboard",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "object",
+          "fact": "There is sand.",
+          "source": "the sand",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "spatial",
+          "fact": "The first-mentioned surfboard leans against the wall.",
+          "source": "A surfboard leans against a wall.",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "spatial",
+          "fact": "The other surfboard is on the sand.",
+          "source": "Another surfboard is on the sand.",
+          "assertion": "asserted",
+          "polarity": "positive"
+        }
+      ]
+    }
+  },
+  {
+    "text": "Some flowers look dry and damaged. The arrangement feels beautiful and comforting, suggesting a celebration.",
+    "output": {
+      "elements": [
+        {
+          "category": "object",
+          "fact": "There are flowers.",
+          "source": "Some flowers",
+          "assertion": "asserted",
+          "polarity": "positive"
+        },
+        {
+          "category": "state",
+          "fact": "Some flowers look dry.",
+          "source": "Some flowers look dry and damaged.",
+          "assertion": "speculative",
+          "polarity": "positive"
+        },
+        {
+          "category": "state",
+          "fact": "Some flowers look damaged.",
+          "source": "Some flowers look dry and damaged.",
+          "assertion": "speculative",
+          "polarity": "positive"
+        },
+        {
+          "category": "other",
+          "fact": "The arrangement feels beautiful and comforting.",
+          "source": "The arrangement feels beautiful and comforting",
+          "assertion": "asserted",
+          "polarity": "positive",
+          "reason": "subjective"
+        },
+        {
+          "category": "other",
+          "fact": "The arrangement suggests a celebration.",
+          "source": "The arrangement feels beautiful and comforting, suggesting a celebration.",
+          "assertion": "speculative",
+          "polarity": "positive",
+          "reason": "scope"
+        }
+      ]
+    }
+  }
+]

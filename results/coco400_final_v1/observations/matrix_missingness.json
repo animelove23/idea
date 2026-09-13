@@ -1,0 +1,4574 @@
+{
+  "unresolved_pairs": [
+    {
+      "pair_id": "38438",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "113173",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "extraction_issues": 2
+      }
+    },
+    {
+      "pair_id": "359751",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unchanged",
+      "candidate_states": {
+        "S": [
+          "gained",
+          "mixed"
+        ],
+        "H": [
+          "unchanged"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "404462",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 8,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "326667",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 2,
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "396768",
+      "length_group": "shorter",
+      "supported_change": "lost",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "lost"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "342770",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "gained",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 4,
+        "attributes_on_false_subject": 1,
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "487391",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 4,
+        "visual_uncertain_facts": 2,
+        "alignment_technical_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "542511",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_technical_facts": 6,
+        "alignment_semantic_facts": 5,
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "525322",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 10,
+        "visual_uncertain_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "279305",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 2,
+        "visual_uncertain_facts": 2,
+        "alignment_technical_facts": 4,
+        "extraction_issues": 2
+      }
+    },
+    {
+      "pair_id": "45472",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 7,
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "102609",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 3,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "45388",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 2,
+        "extraction_issues": 3
+      }
+    },
+    {
+      "pair_id": "281711",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "gained",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 8,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "268717",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 7,
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "318854",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "gained",
+          "mixed"
+        ],
+        "H": [
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 4,
+        "visual_uncertain_facts": 3,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "402992",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 3,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "34520",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "mixed",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "40705",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 4,
+        "alignment_semantic_facts": 2,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "469671",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 2,
+        "attributes_on_false_subject": 1,
+        "parent_attribute_conflict": 1,
+        "visual_uncertain_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "451915",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 2,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "295574",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 3,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "55244",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 2,
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "264423",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "120357",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unchanged",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 5,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "68418",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "lost"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 4,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "561517",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "136140",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "70471",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "mixed",
+      "candidate_states": {
+        "S": [
+          "gained",
+          "mixed"
+        ],
+        "H": [
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "569801",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 2,
+        "alignment_semantic_facts": 1,
+        "extraction_issues": 3
+      }
+    },
+    {
+      "pair_id": "118839",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 5,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "303499",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unchanged",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 6,
+        "alignment_technical_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "55857",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 8,
+        "alignment_technical_facts": 1,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "150098",
+      "length_group": "shorter",
+      "supported_change": "lost",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "lost"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "183970",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "extraction_issues": 2
+      }
+    },
+    {
+      "pair_id": "32909",
+      "length_group": "shorter",
+      "supported_change": "lost",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "lost"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 3,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "21046",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "attributes_on_false_subject": 1,
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 2
+      }
+    },
+    {
+      "pair_id": "513037",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "gained",
+      "candidate_states": {
+        "S": [
+          "gained",
+          "mixed"
+        ],
+        "H": [
+          "gained"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 7,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "431364",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 5,
+        "visual_uncertain_facts": 1,
+        "alignment_technical_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "274612",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 6,
+        "visual_uncertain_facts": 4,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "43324",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "82465",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "alignment_technical_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "75806",
+      "length_group": "shorter",
+      "supported_change": "lost",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "lost"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 4,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "45094",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 3,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "113246",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "lost",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "lost"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 5,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "389308",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "lost",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "lost"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 3,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "261115",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 3,
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "46912",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "lost",
+      "candidate_states": {
+        "S": [
+          "gained",
+          "mixed"
+        ],
+        "H": [
+          "lost"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "94760",
+      "length_group": "shorter",
+      "supported_change": "gained",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "gained"
+        ],
+        "H": [
+          "unchanged",
+          "gained"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "96755",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 3,
+        "visual_uncertain_facts": 3,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "221044",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 7,
+        "alignment_technical_facts": 3,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "482236",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "gained",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "48530",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 3,
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "255795",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "mixed",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 2,
+        "visual_uncertain_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "511138",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "548090",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "403907",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 7,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "439180",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "356500",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "extraction_issues": 2
+      }
+    },
+    {
+      "pair_id": "332570",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unchanged",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 4,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "293964",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 4,
+        "visual_uncertain_facts": 11,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "54264",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 2,
+        "attributes_on_false_subject": 5,
+        "parent_attribute_conflict": 4,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "397351",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 2,
+        "extraction_issues": 2
+      }
+    },
+    {
+      "pair_id": "223874",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "gained",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 16,
+        "visual_uncertain_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "373857",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 6,
+        "alignment_technical_facts": 1,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "294484",
+      "length_group": "longer",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 7,
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "226701",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 4,
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "537857",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 5,
+        "attributes_on_false_subject": 2,
+        "parent_attribute_conflict": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "494141",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "380203",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 5,
+        "alignment_technical_facts": 4,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "230739",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "74789",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "lost"
+        ],
+        "H": [
+          "gained",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 3,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "198590",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "lost",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "lost"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 2,
+        "alignment_semantic_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "515391",
+      "length_group": "shorter",
+      "supported_change": "lost",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "lost"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 3,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "233023",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 4,
+        "alignment_semantic_facts": 8,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "230220",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "gained",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "gained"
+        ]
+      },
+      "quality": {
+        "alignment_technical_facts": 2,
+        "visual_uncertain_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "381213",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "lost",
+      "candidate_states": {
+        "S": [
+          "gained",
+          "mixed"
+        ],
+        "H": [
+          "lost"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 3,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "73201",
+      "length_group": "shorter",
+      "supported_change": "lost",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "lost"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "159736",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "gained",
+          "mixed"
+        ],
+        "H": [
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 4,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "138119",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unchanged",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "454642",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 3,
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "340934",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 7,
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 2
+      }
+    },
+    {
+      "pair_id": "274298",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 3,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "467966",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unchanged",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "381925",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "85162",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "567740",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "extraction_issues": 2
+      }
+    },
+    {
+      "pair_id": "327590",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "gained",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "572184",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "lost"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "214124",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 2,
+        "alignment_semantic_facts": 3,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "276971",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "lost",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "lost"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 6,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "168583",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 6,
+        "visual_uncertain_facts": 2,
+        "alignment_technical_facts": 3,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "286591",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 3
+      }
+    },
+    {
+      "pair_id": "417586",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "96034",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 4,
+        "attributes_on_false_subject": 1,
+        "parent_attribute_conflict": 1,
+        "visual_uncertain_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "168543",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "lost",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "lost"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 4,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "89618",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 3,
+        "alignment_technical_facts": 1,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "476796",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 4,
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "246252",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_technical_facts": 3,
+        "extraction_issues": 3
+      }
+    },
+    {
+      "pair_id": "553747",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 6,
+        "visual_uncertain_facts": 3,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "332777",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unchanged",
+      "candidate_states": {
+        "S": [
+          "gained",
+          "mixed"
+        ],
+        "H": [
+          "unchanged"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 6,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "145073",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "gained",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "45644",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 3,
+        "extraction_issues": 2
+      }
+    },
+    {
+      "pair_id": "265518",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "gained",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "gained"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 5,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "365208",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "221536",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 8,
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "298372",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 2,
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "388409",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "extraction_issues": 2
+      }
+    },
+    {
+      "pair_id": "388829",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 2,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "501047",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 3,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "494014",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 4,
+        "visual_uncertain_facts": 3,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "351528",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "lost",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "lost"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 3,
+        "attributes_on_false_subject": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "180917",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 2,
+        "alignment_technical_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "71090",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_technical_facts": 3,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "418623",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "lost",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "lost"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 10,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "528098",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "gained",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "gained"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "265096",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 3,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "508580",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 3,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "566324",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "gained",
+          "mixed"
+        ],
+        "H": [
+          "gained",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 2,
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "183965",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 5,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "484346",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 1,
+        "alignment_technical_facts": 1,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "161022",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "alignment_semantic_facts": 1,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "456559",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "lost",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "lost"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "240323",
+      "length_group": "shorter",
+      "supported_change": "lost",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "lost"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "575901",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "316397",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 4,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "443218",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 2,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "331883",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 3,
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "132317",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 3,
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "150639",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "237759",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "209322",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "lost",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "lost"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 3,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "84701",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "gained",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_technical_facts": 5,
+        "visual_uncertain_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "357501",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 3,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "497867",
+      "length_group": "shorter",
+      "supported_change": "lost",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "lost"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "365099",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 4,
+        "alignment_technical_facts": 1,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "544638",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 2,
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "19079",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "lost",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "lost"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 3,
+        "visual_uncertain_facts": 4,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "324789",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "mixed",
+      "candidate_states": {
+        "S": [
+          "gained",
+          "mixed"
+        ],
+        "H": [
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 2,
+        "attributes_on_false_subject": 2,
+        "parent_attribute_conflict": 2,
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "256003",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "lost",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "lost"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 3,
+        "visual_uncertain_facts": 1,
+        "attributes_on_false_subject": 1,
+        "parent_attribute_conflict": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "321217",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 2,
+        "extraction_issues": 2
+      }
+    },
+    {
+      "pair_id": "338419",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained"
+        ],
+        "H": [
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "360487",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unchanged",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 4,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "46463",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "gained",
+          "mixed"
+        ],
+        "H": [
+          "gained",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 3,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "191054",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 2,
+        "visual_uncertain_facts": 4,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "22461",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unchanged",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 6,
+        "attributes_on_false_subject": 1,
+        "alignment_technical_facts": 4,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "8899",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 8,
+        "alignment_technical_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "93620",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unchanged",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged"
+        ]
+      },
+      "quality": {
+        "alignment_technical_facts": 5,
+        "alignment_semantic_facts": 7,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "154173",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "551665",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "extraction_issues": 2
+      }
+    },
+    {
+      "pair_id": "209548",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "245173",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 11,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "424712",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "522032",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 2,
+        "alignment_semantic_facts": 2,
+        "extraction_issues": 2
+      }
+    },
+    {
+      "pair_id": "567171",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 4,
+        "visual_uncertain_facts": 3,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "201141",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 5,
+        "alignment_semantic_facts": 3,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "236246",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "401862",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "409009",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "565761",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "gained",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "gained"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 3,
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "1682",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 3,
+        "visual_pending_facts": 1,
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "415015",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "555412",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "gained",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 7,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "430973",
+      "length_group": "shorter",
+      "supported_change": "lost",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "lost"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "226802",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "gained",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_technical_facts": 8,
+        "visual_uncertain_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "116887",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 8,
+        "extraction_issues": 2
+      }
+    },
+    {
+      "pair_id": "381658",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 2,
+        "extraction_issues": 2
+      }
+    },
+    {
+      "pair_id": "469134",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 4,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "120234",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 4,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "275448",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 4,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "299776",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 3,
+        "extraction_issues": 2
+      }
+    },
+    {
+      "pair_id": "419697",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "alignment_semantic_facts": 3,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "530600",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "gained",
+          "mixed"
+        ],
+        "H": [
+          "gained",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 2,
+        "alignment_semantic_facts": 3,
+        "attributes_on_false_subject": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "285894",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unchanged",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 4,
+        "alignment_technical_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "1404",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unchanged",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "65350",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "409346",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 3,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "180411",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "563153",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 4,
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "408501",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "lost",
+      "candidate_states": {
+        "S": [
+          "gained",
+          "mixed"
+        ],
+        "H": [
+          "lost"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "32284",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 1,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "450500",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 2,
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "317531",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 5,
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "25846",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "gained",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "484432",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 2,
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "221914",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unchanged",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "450849",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 4,
+        "attributes_on_false_subject": 1,
+        "parent_attribute_conflict": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "1180",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 4,
+        "alignment_technical_facts": 3,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "296960",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "103485",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 3,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "519838",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "lost",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "lost"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 3,
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "53748",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 3,
+        "extraction_issues": 3
+      }
+    },
+    {
+      "pair_id": "462687",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 4,
+        "visual_uncertain_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "138549",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 3,
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "446799",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 7,
+        "visual_uncertain_facts": 3,
+        "alignment_technical_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "323799",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "extraction_issues": 1
+      }
+    },
+    {
+      "pair_id": "162530",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "377195",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "gained",
+          "mixed"
+        ],
+        "H": [
+          "gained",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "169273",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 2,
+        "visual_uncertain_facts": 1,
+        "alignment_technical_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "251367",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 5,
+        "visual_uncertain_facts": 3,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "515682",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 2,
+        "alignment_technical_facts": 6,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "193349",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "626",
+      "length_group": "longer",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "alignment_technical_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "439426",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 1,
+        "extraction_issues": 2
+      }
+    },
+    {
+      "pair_id": "420914",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "gained",
+      "candidate_states": {
+        "S": [
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "gained"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 3,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "416145",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "451944",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 10,
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "497049",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "gained",
+          "mixed"
+        ],
+        "H": [
+          "gained",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 11,
+        "visual_uncertain_facts": 1,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "484303",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 2,
+        "extraction_issues": 2
+      }
+    },
+    {
+      "pair_id": "550051",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "lost"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 2,
+        "visual_uncertain_facts": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "140010",
+      "length_group": "shorter",
+      "supported_change": "mixed",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "mixed"
+        ],
+        "H": [
+          "gained",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "visual_uncertain_facts": 2,
+        "alignment_technical_facts": 2,
+        "attributes_on_false_subject": 2,
+        "parent_attribute_conflict": 2,
+        "extraction_issues": 0
+      }
+    },
+    {
+      "pair_id": "183469",
+      "length_group": "shorter",
+      "supported_change": "unresolved",
+      "hallucination_change": "unresolved",
+      "candidate_states": {
+        "S": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ],
+        "H": [
+          "unchanged",
+          "gained",
+          "lost",
+          "mixed"
+        ]
+      },
+      "quality": {
+        "alignment_semantic_facts": 3,
+        "extraction_issues": 2
+      }
+    }
+  ]
+}

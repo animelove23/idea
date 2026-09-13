@@ -1,0 +1,34 @@
+{
+  "inputs": [
+    {
+      "path": "../实验结果/exp_results/chair_llava_baseline/llava-1.5/seed1994_org_greedy_max_new_tokens_512.jsonl",
+      "method": "vanilla",
+      "decode": "greedy"
+    },
+    {
+      "path": "../实验结果/exp_results/vista_chair_greedy/llava-1.5/seed1994_vsv_lambda_0.17_logaug_loglayer_25,30_logalpha_0.3_greedy_max_new_tokens_512.jsonl",
+      "method": "vista",
+      "decode": "greedy"
+    },
+    {
+      "path": "../实验结果/exp_results/chair_llava_beam5/llava-1.5/seed1994_org_beam5_max_new_tokens_512.jsonl",
+      "method": "vanilla",
+      "decode": "beam5"
+    },
+    {
+      "path": "../实验结果/exp_results/vista_chair_beam5/llava-1.5/seed1994_vsv_lambda_0.17_logaug_loglayer_25,30_logalpha_0.3_beam5_max_new_tokens_512.jsonl",
+      "method": "vista",
+      "decode": "beam5"
+    },
+    {
+      "path": "../实验结果/exp_results/chair_llava_topp09/llava-1.5/seed1994_org_nucleus_0.9_max_new_tokens_512.jsonl",
+      "method": "vanilla",
+      "decode": "top_p"
+    },
+    {
+      "path": "../实验结果/exp_results/vista_chair_topp09/llava-1.5/seed1994_vsv_lambda_0.17_logaug_loglayer_25,30_logalpha_0.3_nucleus_0.9_max_new_tokens_512.jsonl",
+      "method": "vista",
+      "decode": "top_p"
+    }
+  ]
+}

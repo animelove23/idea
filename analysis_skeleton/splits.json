@@ -1,0 +1,43 @@
+{
+  "version": "skeleton-1.0",
+  "reference_status": "assistant_candidates_pending_human_review",
+  "decompose": {
+    "examples": "shots/decompose.jsonl",
+    "development": "fixtures/decompose_pilot.jsonl",
+    "synthetic_cases": 4,
+    "real_caption_ids": [
+      "150639_steer",
+      "337055_steer",
+      "397351_steer",
+      "360487_original"
+    ],
+    "held_out_test": null
+  },
+  "align": {
+    "examples": "shots/align.jsonl",
+    "development": "fixtures/align_cases.jsonl",
+    "controlled_pairs": 4,
+    "rewrite_family_held_out_claim": false,
+    "held_out_test": null
+  },
+  "verify": {
+    "examples": "shots/verify.jsonl",
+    "example_image_ids": [
+      54627,
+      212603,
+      3501,
+      8775,
+      275717
+    ],
+    "development": "fixtures/verify_cases.jsonl",
+    "development_image_ids": [
+      337055,
+      150639,
+      360487
+    ],
+    "image_hash_overlap_allowed": false,
+    "held_out_test": null
+  },
+  "all_existing_500_pairs": "exploratory_existing_data",
+  "rule": "Same-image captions, rewrites and decoding variants stay in one split. Existing inspected material is development, not an independent test."
+}

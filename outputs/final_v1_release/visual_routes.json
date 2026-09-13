@@ -1,0 +1,4 @@
+{
+  "entity": "outputs/final_v1_m5/shots_context.jsonl",
+  "attribute": "outputs/final_v1_m5/shots_proposition.jsonl"
+}

@@ -1,0 +1,7 @@
+{
+  "decompose_candidate": "owner",
+  "visual_candidate": "typed",
+  "value_anchors": true,
+  "state_support": true,
+  "visual_shots_path": "outputs/final_v1_release/visual_routes.json"
+}

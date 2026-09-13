@@ -1,0 +1,34 @@
+[
+  {
+    "id": "same_subject_equivalent",
+    "passed": true
+  },
+  {
+    "id": "same_subject_generalized",
+    "passed": true
+  },
+  {
+    "id": "same_subject_specialized",
+    "passed": true
+  },
+  {
+    "id": "part_whole_not_identical",
+    "passed": true
+  },
+  {
+    "id": "owner_specific_omission",
+    "passed": true
+  },
+  {
+    "id": "extraction_gap_not_deletion",
+    "passed": true
+  },
+  {
+    "id": "attribute_value_changed",
+    "passed": true
+  },
+  {
+    "id": "hypernym_without_identity",
+    "passed": true
+  }
+]

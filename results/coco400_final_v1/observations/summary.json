@@ -1,0 +1,149 @@
+{
+  "selected_pairs": 400,
+  "exported_runs": 400,
+  "analyzed_pairs": 400,
+  "failed_pair_ids": [],
+  "length_counts": {
+    "shorter": 395,
+    "longer": 4,
+    "unchanged": 1
+  },
+  "matrix_classifiable_by_length": {
+    "shorter": 184,
+    "unchanged": 1,
+    "longer": 2
+  },
+  "matrix_unresolved_by_length": {
+    "shorter": 211,
+    "unchanged": 0,
+    "longer": 2
+  },
+  "original_words": 35191,
+  "steer_words": 16951,
+  "mean_word_reduction": 0.5048027917551324,
+  "median_word_reduction": 0.508083441981747,
+  "component_totals": {
+    "entity_S": {
+      "original_count": 2272,
+      "steer_count": 2011,
+      "retained": 1240,
+      "loss": 768,
+      "gain": 490,
+      "removed": 768,
+      "added": 490,
+      "modified_out": 0,
+      "modified_in": 0,
+      "possible_loss": 407,
+      "possible_gain": 365
+    },
+    "entity_H": {
+      "original_count": 323,
+      "steer_count": 173,
+      "retained": 60,
+      "loss": 244,
+      "gain": 96,
+      "removed": 244,
+      "added": 96,
+      "modified_out": 0,
+      "modified_in": 0,
+      "possible_loss": 162,
+      "possible_gain": 101
+    },
+    "attribute_S": {
+      "original_count": 390,
+      "steer_count": 330,
+      "retained": 124,
+      "loss": 198,
+      "gain": 141,
+      "removed": 194,
+      "added": 137,
+      "modified_out": 4,
+      "modified_in": 4,
+      "possible_loss": 109,
+      "possible_gain": 84
+    },
+    "attribute_H": {
+      "original_count": 23,
+      "steer_count": 27,
+      "retained": 2,
+      "loss": 15,
+      "gain": 15,
+      "removed": 15,
+      "added": 15,
+      "modified_out": 0,
+      "modified_in": 0,
+      "possible_loss": 47,
+      "possible_gain": 29
+    }
+  },
+  "attribute_removed_components": {
+    "parent_retained_attribute_removed": 127,
+    "parent_removed": 67
+  },
+  "quality": {
+    "visual_uncertain_facts": 377,
+    "extraction_issues": 96,
+    "alignment_semantic_facts": 655,
+    "attributes_on_false_subject": 29,
+    "alignment_technical_facts": 111,
+    "parent_attribute_conflict": 14,
+    "visual_pending_facts": 2
+  },
+  "quality_affected_pairs": {
+    "visual_uncertain_facts": 186,
+    "extraction_issues": 67,
+    "alignment_semantic_facts": 166,
+    "attributes_on_false_subject": 19,
+    "alignment_technical_facts": 44,
+    "parent_attribute_conflict": 9,
+    "visual_pending_facts": 2
+  },
+  "entity_mentions": {
+    "original": 4564,
+    "steer": 3336
+  },
+  "repeat_mention_proxy": {
+    "original": 1785,
+    "steer": 1027
+  },
+  "accepted_fact_rows": 5959,
+  "visual_fact_labels": {
+    "supported": 5023,
+    "uncertain": 377,
+    "hallucinated": 557,
+    "pending": 2
+  },
+  "call_status": {
+    "complete": 5680,
+    "technical_failure": 2
+  },
+  "stage_calls": {
+    "verify": 4482,
+    "decompose": 800,
+    "align": 400
+  },
+  "new_api_calls_recorded_in_checkpoints": 5682,
+  "unique_response_ids": 5681,
+  "requested_models": {
+    "deepseek-flash": 5682
+  },
+  "response_models": {
+    "deepseek-flash": 5681
+  },
+  "usage": {
+    "prompt_tokens": 20973574,
+    "completion_tokens": 1170548,
+    "total_tokens": 22144122
+  },
+  "known_development_overlap": 47,
+  "hallucination_unchanged_subtypes": {
+    "both_zero_confirmed": 57,
+    "zero_known_but_visual_membership_unknown": 6,
+    "known_nonzero_unchanged": 10
+  },
+  "reference_visual_accuracy_available": false,
+  "causal_mechanism_established": false,
+  "labels": "automatic_frozen_M5_predictions_not_human_gold",
+  "matrix_definition": "S/H gain and loss of aligned atomic propositions; modified keeps paired loss/gain; uncertain memberships not filled with zero",
+  "observation_code_sha256": "99e51f81aad7a8f5470bf294bedc5c347710cd7521ada3b90fb4a293d1c8a779"
+}

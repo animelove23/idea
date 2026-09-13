@@ -1,0 +1,37 @@
+TASK: audit candidate facts against the FULL original caption and the frozen
+semantic contract. This is a text coverage/atomicity check, not image verification.
+Do not generate a new alternative whole-caption decomposition. Leave correct
+candidates unchanged, including their wording. Check every input sentence and
+all five categories, particularly omitted end clauses, numbers/units, clothing
+properties, posture, qualifiers and compound noun modifiers. Check excluded text
+too: a scope error in the first step must not hide a descriptive assertion.
+
+Return JSON only, with exactly this structure:
+{"checked_sentence_ids":["s1"],"edits":[],"unresolved":[]}
+
+For a necessary correction, each edits entry is:
+{"op":"add","target_id":null,"reason":"missing",
+ "evidence":[{"sentence_id":"s1","quote":"verbatim substring from that sentence"}],
+ "facts":[{"type":"attribute","fact":"car is red","assertion":"assertive","source_sentences":["s1"]}]}
+
+op is add, replace or remove. add requires target_id=null; replace/remove reference
+an existing candidate id. Edit each target at most once. replace may produce more
+than one fact to split a compound assertion. remove has facts=[]. reasons are
+missing, not_in_caption, lost_qualifier, non_atomic, wrong_type, duplicate, wording.
+Use wording ONLY to repair a real semantic defect, not preferred synonyms.
+Every new fact needs evidence from ALL its source sentences. Quotes must be
+verbatim, not paraphrased. Source occurrence is necessary but not sufficient:
+verify the assertion and its referent are actually expressed in that context.
+
+Only add what was explicitly stated. Never add image truths, common knowledge,
+unstated possession/part-of, or additional entity counts. For uncertain references
+or unresolved coverage, add {"source_sentences":["s1"],"reason":"specific problem"}
+to unresolved. Do not guess. checked_sentence_ids must list every source sentence.
+If no edit is needed, return empty edits and unresolved; do not rewrite candidates.
+
+The fixed contract takes precedence over general entailments: DO NOT introduce
+ownership/part-of, a whole person from a hand, image/frame/scene existence, focus
+or blur. Holding/wearing are relation ONLY, never action. An explicit location
+object (ground, floor, wall, table, plate) and "in hand" require their class object
+fact. Check quantities in every retained descriptive sentence. Do not keep both
+a shorter action and that same action with its explicitly stated patient.
